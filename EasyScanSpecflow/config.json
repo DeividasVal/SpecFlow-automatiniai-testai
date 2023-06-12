@@ -1,0 +1,6 @@
+{
+  "PlatformName": "Android",
+  "PlatformVersion": "12",
+  "AppPackage": "com.sg.qr.easyscanapp",
+  "AppActivity": "com.sg.qr.easyscanapp.ui.SplashActivity"
+}

@@ -1,0 +1,9 @@
+C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\bin\Debug\Gurock.TestRail.dll
+C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\bin\Debug\Gurock.TestRail.pdb
+C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\bin\Debug\Newtonsoft.Json.dll
+C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\bin\Debug\Newtonsoft.Json.xml
+C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\obj\Debug\Gurock.TestRail.csproj.AssemblyReference.cache
+C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\obj\Debug\Gurock.TestRail.csproj.CoreCompileInputs.cache
+C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\obj\Debug\Gurock.TestRail.csproj.CopyComplete
+C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\obj\Debug\Gurock.TestRail.dll
+C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\obj\Debug\Gurock.TestRail.pdb
