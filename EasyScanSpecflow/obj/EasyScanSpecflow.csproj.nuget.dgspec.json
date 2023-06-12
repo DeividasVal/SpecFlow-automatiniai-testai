@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\valac\\source\\repos\\StrongPoint\\EasyScan\\EasyScanSpecflow\\EasyScanSpecflow.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\valac\\source\\repos\\StrongPoint\\EasyScan\\dotnet\\Gurock.TestRail.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valac\\source\\repos\\StrongPoint\\EasyScan\\dotnet\\Gurock.TestRail.csproj",
+        "projectName": "Gurock.TestRail",
+        "projectPath": "C:\\Users\\valac\\source\\repos\\StrongPoint\\EasyScan\\dotnet\\Gurock.TestRail.csproj",
+        "frameworks": {
+          "net35": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net35": {}
+      }
+    },
+    "C:\\Users\\valac\\source\\repos\\StrongPoint\\EasyScan\\EasyScanSpecflow\\EasyScanSpecflow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valac\\source\\repos\\StrongPoint\\EasyScan\\EasyScanSpecflow\\EasyScanSpecflow.csproj",
+        "projectName": "EasyScanSpecflow",
+        "projectPath": "C:\\Users\\valac\\source\\repos\\StrongPoint\\EasyScan\\EasyScanSpecflow\\EasyScanSpecflow.csproj",
+        "packagesPath": "C:\\Users\\valac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valac\\source\\repos\\StrongPoint\\EasyScan\\EasyScanSpecflow\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\valac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\valac\\source\\repos\\StrongPoint\\EasyScan\\dotnet\\Gurock.TestRail.csproj": {
+                "projectPath": "C:\\Users\\valac\\source\\repos\\StrongPoint\\EasyScan\\dotnet\\Gurock.TestRail.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Appium.WebDriver": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.40, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
