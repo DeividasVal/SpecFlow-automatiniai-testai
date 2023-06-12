@@ -1,0 +1,482 @@
+2022-08-25 17:42:27.954 - Started test: PriceChecks
+2022-08-25 17:42:28.365 - Alert: Price checker button could not be found
+2022-08-25 17:42:28.382 - Alert: Price checker button could not be found
+2022-08-25 17:42:28.399 - Alert: Price checker button could not be found
+2022-08-25 17:42:28.415 - Alert: Price checker button could not be found
+2022-08-25 17:42:28.430 - Alert: Price checker button could not be found
+2022-08-25 17:42:28.446 - Alert: Price checker button could not be found
+2022-08-25 17:42:28.463 - Alert: Price checker button could not be found
+2022-08-25 17:42:28.463 - Alert: Could not load main screen
+2022-08-25 17:42:28.504 - Step: user selects price checker
+2022-08-25 17:42:29.557 - Action: price checker button was pressed
+2022-08-25 17:42:29.571 - Step: user checks items by barcode and their values match:
+2022-08-25 17:42:30.210 - Action: add button was pressed
+2022-08-25 17:42:31.383 - Action: product code was entered - 1
+2022-08-25 17:42:31.948 - Action: submit button was pressed
+2022-08-25 17:42:32.911 - Action: add button was pressed
+2022-08-25 17:42:34.123 - Action: product code was entered - 5
+2022-08-25 17:42:34.682 - Action: submit button was pressed
+2022-08-25 17:42:35.503 - Test ended.
+2022-08-25 17:42:36.364 - System.IO.FileNotFoundException: Could not find file 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\TestResults.html'.
+File name: 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\TestResults.html'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 140
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 95
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 126
+2022-08-25 17:45:48.899 - Started test: PriceChecks
+2022-08-25 17:45:49.281 - Alert: Price checker button could not be found
+2022-08-25 17:45:49.294 - Alert: Price checker button could not be found
+2022-08-25 17:45:49.308 - Alert: Price checker button could not be found
+2022-08-25 17:45:49.325 - Alert: Price checker button could not be found
+2022-08-25 17:45:49.338 - Alert: Price checker button could not be found
+2022-08-25 17:45:49.353 - Alert: Price checker button could not be found
+2022-08-25 17:45:49.370 - Alert: Price checker button could not be found
+2022-08-25 17:45:49.370 - Alert: Could not load main screen
+2022-08-25 17:45:49.413 - Step: user selects price checker
+2022-08-25 17:45:50.387 - Action: price checker button was pressed
+2022-08-25 17:45:50.400 - Step: user checks items by barcode and their values match:
+2022-08-25 17:45:51.016 - Action: add button was pressed
+2022-08-25 17:45:52.247 - Action: product code was entered - 1
+2022-08-25 17:45:52.813 - Action: submit button was pressed
+2022-08-25 17:45:53.820 - Action: add button was pressed
+2022-08-25 17:45:55.031 - Action: product code was entered - 5
+2022-08-25 17:45:55.582 - Action: submit button was pressed
+2022-08-25 17:45:56.340 - NUnit.Framework.AssertionException:   String lengths are both 15. Strings differ at index 13.
+  Expected: "Price:\r\n  1.65€"
+  But was:  "Price:\r\n  1.69€"
+  --------------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductPriceShouldBe(String expectedPrice) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 86
+2022-08-25 17:45:56.347 - Test ended.
+2022-08-25 17:45:57.454 - System.IO.FileNotFoundException: Could not find file 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'.
+File name: 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 140
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 95
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 126
+2022-08-25 17:48:08.025 - Started test: PriceChecks
+2022-08-25 17:48:08.552 - Alert: Price checker button could not be found
+2022-08-25 17:48:08.567 - Alert: Price checker button could not be found
+2022-08-25 17:48:08.583 - Alert: Price checker button could not be found
+2022-08-25 17:48:08.595 - Alert: Price checker button could not be found
+2022-08-25 17:48:08.608 - Alert: Price checker button could not be found
+2022-08-25 17:48:08.620 - Alert: Price checker button could not be found
+2022-08-25 17:48:08.633 - Alert: Price checker button could not be found
+2022-08-25 17:48:08.634 - Alert: Could not load main screen
+2022-08-25 17:48:08.675 - Step: user selects price checker
+2022-08-25 17:48:09.614 - Action: price checker button was pressed
+2022-08-25 17:48:09.626 - Step: user checks items by barcode and their values match:
+2022-08-25 17:48:10.249 - Action: add button was pressed
+2022-08-25 17:48:11.418 - Action: product code was entered - 1
+2022-08-25 17:48:11.976 - Action: submit button was pressed
+2022-08-25 17:48:12.950 - Action: add button was pressed
+2022-08-25 17:48:14.137 - Action: product code was entered - 5
+2022-08-25 17:48:14.695 - Action: submit button was pressed
+2022-08-25 17:48:15.455 - NUnit.Framework.AssertionException:   String lengths are both 15. Strings differ at index 13.
+  Expected: "Price:\r\n  1.65€"
+  But was:  "Price:\r\n  1.69€"
+  --------------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductPriceShouldBe(String expectedPrice) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 86
+2022-08-25 17:48:15.462 - Test ended.
+2022-08-25 17:48:21.978 - Alert: Price checker button could not be found
+2022-08-25 17:48:22.162 - Action: back keycode was pressed
+2022-08-25 17:51:00.565 - Started test: PriceChecks
+2022-08-25 17:51:01.098 - Alert: Price checker button could not be found
+2022-08-25 17:51:01.111 - Alert: Price checker button could not be found
+2022-08-25 17:51:01.126 - Alert: Price checker button could not be found
+2022-08-25 17:51:01.140 - Alert: Price checker button could not be found
+2022-08-25 17:51:01.153 - Alert: Price checker button could not be found
+2022-08-25 17:51:01.165 - Alert: Price checker button could not be found
+2022-08-25 17:51:01.178 - Alert: Price checker button could not be found
+2022-08-25 17:51:01.178 - Alert: Could not load main screen
+2022-08-25 17:51:01.218 - Step: user selects price checker
+2022-08-25 17:51:02.168 - Action: price checker button was pressed
+2022-08-25 17:51:02.183 - Step: user checks items by barcode and their values match:
+2022-08-25 17:51:02.838 - Action: add button was pressed
+2022-08-25 17:51:04.056 - Action: product code was entered - 1
+2022-08-25 17:51:04.625 - Action: submit button was pressed
+2022-08-25 17:51:05.573 - Action: add button was pressed
+2022-08-25 17:51:06.777 - Action: product code was entered - 5
+2022-08-25 17:51:07.335 - Action: submit button was pressed
+2022-08-25 17:51:08.111 - Test ended.
+2022-08-25 17:51:09.272 - System.IO.FileNotFoundException: Could not find file 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'.
+File name: 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 140
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 95
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 126
+2022-08-25 17:52:08.389 - Started test: PriceChecks
+2022-08-25 17:52:08.782 - Alert: Price checker button could not be found
+2022-08-25 17:52:08.795 - Alert: Price checker button could not be found
+2022-08-25 17:52:08.808 - Alert: Price checker button could not be found
+2022-08-25 17:52:08.821 - Alert: Price checker button could not be found
+2022-08-25 17:52:08.833 - Alert: Price checker button could not be found
+2022-08-25 17:52:08.846 - Alert: Price checker button could not be found
+2022-08-25 17:52:08.859 - Alert: Price checker button could not be found
+2022-08-25 17:52:08.859 - Alert: Could not load main screen
+2022-08-25 17:52:08.904 - Step: user selects price checker
+2022-08-25 17:52:10.150 - Action: price checker button was pressed
+2022-08-25 17:52:10.163 - Step: user checks items by barcode and their values match:
+2022-08-25 17:52:10.805 - Action: add button was pressed
+2022-08-25 17:52:11.978 - Action: product code was entered - 1
+2022-08-25 17:52:12.542 - Action: submit button was pressed
+2022-08-25 17:52:13.464 - Action: add button was pressed
+2022-08-25 17:52:14.662 - Action: product code was entered - 5
+2022-08-25 17:52:15.217 - Action: submit button was pressed
+2022-08-25 17:52:16.012 - Test ended.
+2022-08-25 17:52:22.763 - Alert: Price checker button could not be found
+2022-08-25 17:52:22.937 - Action: back keycode was pressed
+2022-08-25 17:53:23.532 - Started test: PriceChecks
+2022-08-25 17:53:23.926 - Alert: Price checker button could not be found
+2022-08-25 17:53:23.940 - Alert: Price checker button could not be found
+2022-08-25 17:53:23.953 - Alert: Price checker button could not be found
+2022-08-25 17:53:23.966 - Alert: Price checker button could not be found
+2022-08-25 17:53:23.978 - Alert: Price checker button could not be found
+2022-08-25 17:53:23.992 - Alert: Price checker button could not be found
+2022-08-25 17:53:24.005 - Alert: Price checker button could not be found
+2022-08-25 17:53:24.005 - Alert: Could not load main screen
+2022-08-25 17:53:24.045 - Step: user selects price checker
+2022-08-25 17:53:25.270 - Action: price checker button was pressed
+2022-08-25 17:53:25.283 - Step: user checks items by barcode and their values match:
+2022-08-25 17:53:25.891 - Action: add button was pressed
+2022-08-25 17:53:27.065 - Action: product code was entered - 1
+2022-08-25 17:53:27.638 - Action: submit button was pressed
+2022-08-25 17:53:28.642 - Action: add button was pressed
+2022-08-25 17:53:29.862 - Action: product code was entered - 5
+2022-08-25 17:53:30.428 - Action: submit button was pressed
+2022-08-25 17:53:31.185 - NUnit.Framework.AssertionException:   String lengths are both 15. Strings differ at index 13.
+  Expected: "Price:\r\n  1.65€"
+  But was:  "Price:\r\n  1.69€"
+  --------------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductPriceShouldBe(String expectedPrice) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 86
+2022-08-25 17:53:31.194 - Test ended.
+2022-08-25 17:53:32.023 - System.IO.FileNotFoundException: Could not find file 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'.
+File name: 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 140
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 95
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 126
+2022-08-25 18:49:23.288 - Started test: PriceChecks
+2022-08-25 18:49:23.681 - Alert: Price checker button could not be found
+2022-08-25 18:49:23.698 - Alert: Price checker button could not be found
+2022-08-25 18:49:23.710 - Alert: Price checker button could not be found
+2022-08-25 18:49:23.724 - Alert: Price checker button could not be found
+2022-08-25 18:49:23.740 - Alert: Price checker button could not be found
+2022-08-25 18:49:23.754 - Alert: Price checker button could not be found
+2022-08-25 18:49:23.766 - Alert: Price checker button could not be found
+2022-08-25 18:49:23.766 - Alert: Could not load main screen
+2022-08-25 18:49:23.807 - Step: user selects price checker
+2022-08-25 18:49:24.803 - Action: price checker button was pressed
+2022-08-25 18:49:24.815 - Step: user checks items by barcode and their values match:
+2022-08-25 18:49:25.468 - Action: add button was pressed
+2022-08-25 18:49:26.653 - Action: product code was entered - 1
+2022-08-25 18:49:27.214 - Action: submit button was pressed
+2022-08-25 18:49:28.203 - Action: add button was pressed
+2022-08-25 18:49:28.901 - Action: product code was entered - 5
+2022-08-25 18:49:29.446 - Action: submit button was pressed
+2022-08-25 18:49:30.189 - NUnit.Framework.AssertionException:   String lengths are both 15. Strings differ at index 13.
+  Expected: "Price:\r\n  1.65€"
+  But was:  "Price:\r\n  1.69€"
+  --------------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductPriceShouldBe(String expectedPrice) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 86
+2022-08-25 18:49:30.197 - Test ended.
+2022-08-25 18:49:31.037 - System.IO.FileNotFoundException: Could not find file 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'.
+File name: 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 140
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 95
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 126
+2022-08-25 18:50:32.174 - Started test: PriceChecks
+2022-08-25 18:50:32.678 - Alert: Price checker button could not be found
+2022-08-25 18:50:32.691 - Alert: Price checker button could not be found
+2022-08-25 18:50:32.705 - Alert: Price checker button could not be found
+2022-08-25 18:50:32.717 - Alert: Price checker button could not be found
+2022-08-25 18:50:32.731 - Alert: Price checker button could not be found
+2022-08-25 18:50:32.748 - Alert: Price checker button could not be found
+2022-08-25 18:50:32.762 - Alert: Price checker button could not be found
+2022-08-25 18:50:32.763 - Alert: Could not load main screen
+2022-08-25 18:50:32.807 - Step: user selects price checker
+2022-08-25 18:50:33.636 - Action: price checker button was pressed
+2022-08-25 18:50:33.649 - Step: user checks items by barcode and their values match:
+2022-08-25 18:50:34.304 - Action: add button was pressed
+2022-08-25 18:50:35.534 - Action: product code was entered - 1
+2022-08-25 18:50:36.090 - Action: submit button was pressed
+2022-08-25 18:50:36.997 - Action: add button was pressed
+2022-08-25 18:50:38.184 - Action: product code was entered - 5
+2022-08-25 18:50:38.750 - Action: submit button was pressed
+2022-08-25 18:50:39.488 - NUnit.Framework.AssertionException:   String lengths are both 15. Strings differ at index 13.
+  Expected: "Price:\r\n  1.65€"
+  But was:  "Price:\r\n  1.69€"
+  --------------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductPriceShouldBe(String expectedPrice) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 86
+2022-08-25 18:50:39.496 - Test ended.
+2022-08-25 18:50:45.217 - System.IO.FileNotFoundException: Could not find file 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'.
+File name: 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 140
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 95
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 157
+2022-08-25 18:56:19.837 - Started test: CheckUnknownItem("1222",null)
+2022-08-25 18:56:20.244 - Alert: Price checker button could not be found
+2022-08-25 18:56:20.257 - Alert: Price checker button could not be found
+2022-08-25 18:56:20.270 - Alert: Price checker button could not be found
+2022-08-25 18:56:20.283 - Alert: Price checker button could not be found
+2022-08-25 18:56:20.297 - Alert: Price checker button could not be found
+2022-08-25 18:56:20.309 - Alert: Price checker button could not be found
+2022-08-25 18:56:20.322 - Alert: Price checker button could not be found
+2022-08-25 18:56:20.322 - Alert: Could not load main screen
+2022-08-25 18:56:20.362 - Step: user selects price checker
+2022-08-25 18:56:21.360 - Action: price checker button was pressed
+2022-08-25 18:56:21.366 - Step: Plus button is pressed
+2022-08-25 18:56:22.003 - Action: add button was pressed
+2022-08-25 18:56:22.009 - Step: Product code 1222 is entered and submitted
+2022-08-25 18:56:23.191 - Action: product code was entered - 1222
+2022-08-25 18:56:23.748 - Action: submit button was pressed
+2022-08-25 18:56:23.751 - Step: app return message that item not found
+2022-08-25 18:56:24.420 - Test ended.
+2022-08-25 18:56:30.334 - Alert: Price checker button could not be found
+2022-08-25 18:56:30.527 - Action: back keycode was pressed
+2022-08-25 18:56:33.221 - System.IO.FileNotFoundException: Could not find file 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'.
+File name: 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 140
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 95
+   at EasyScanSpecflow.Hooks.InitializeHook.AfterTestRun() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\InitializeHook.cs:line 61
+2022-08-25 18:58:19.564 - Started test: CheckUnknownItem("1222",null)
+2022-08-25 18:58:19.963 - Alert: Price checker button could not be found
+2022-08-25 18:58:19.974 - Alert: Price checker button could not be found
+2022-08-25 18:58:19.987 - Alert: Price checker button could not be found
+2022-08-25 18:58:20.000 - Alert: Price checker button could not be found
+2022-08-25 18:58:20.012 - Alert: Price checker button could not be found
+2022-08-25 18:58:20.026 - Alert: Price checker button could not be found
+2022-08-25 18:58:20.038 - Alert: Price checker button could not be found
+2022-08-25 18:58:20.038 - Alert: Could not load main screen
+2022-08-25 18:58:20.078 - Step: user selects price checker
+2022-08-25 18:58:21.059 - Action: price checker button was pressed
+2022-08-25 18:58:21.065 - Step: Plus button is pressed
+2022-08-25 18:58:21.699 - Action: add button was pressed
+2022-08-25 18:58:21.704 - Step: Product code 1222 is entered and submitted
+2022-08-25 18:58:22.873 - Action: product code was entered - 1222
+2022-08-25 18:58:23.427 - Action: submit button was pressed
+2022-08-25 18:58:23.431 - Step: app return message that item not found
+2022-08-25 18:58:24.040 - Test ended.
+2022-08-25 18:58:29.945 - Alert: Price checker button could not be found
+2022-08-25 18:58:30.126 - Action: back keycode was pressed
+2022-08-25 19:00:16.469 - Started test: CheckUnknownItem("1",null)
+2022-08-25 19:00:16.994 - Alert: Price checker button could not be found
+2022-08-25 19:00:17.007 - Alert: Price checker button could not be found
+2022-08-25 19:00:17.020 - Alert: Price checker button could not be found
+2022-08-25 19:00:17.032 - Alert: Price checker button could not be found
+2022-08-25 19:00:17.044 - Alert: Price checker button could not be found
+2022-08-25 19:00:17.056 - Alert: Price checker button could not be found
+2022-08-25 19:00:17.068 - Alert: Price checker button could not be found
+2022-08-25 19:00:17.069 - Alert: Could not load main screen
+2022-08-25 19:00:17.110 - Step: user selects price checker
+2022-08-25 19:00:17.921 - Action: price checker button was pressed
+2022-08-25 19:00:17.928 - Step: Plus button is pressed
+2022-08-25 19:00:18.547 - Action: add button was pressed
+2022-08-25 19:00:18.553 - Step: Product code 1 is entered and submitted
+2022-08-25 19:00:19.765 - Action: product code was entered - 1
+2022-08-25 19:00:20.315 - Action: submit button was pressed
+2022-08-25 19:00:20.318 - Step: app return message that item not found
+2022-08-25 19:00:25.419 - OpenQA.Selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(By by)
+   at EasyScanSpecflow.Pages.PriceCheckerPage.get_ToastMessage() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Pages\PriceCheckerPage.cs:line 42
+   at EasyScanSpecflow.Pages.PriceCheckerPage.getToastMessage() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Pages\PriceCheckerPage.cs:line 258
+2022-08-25 19:00:25.474 - NUnit.Framework.AssertionException:   Expected string length 0 but was 35. Strings differ at index 0.
+  Expected: <string.Empty>
+  But was:  "Information about barcode not found"
+  -----------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenAppReturnMessageThatItemNotFound() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 133
+2022-08-25 19:00:25.482 - Test ended.
+2022-08-25 19:00:31.307 - Alert: Price checker button could not be found
+2022-08-25 19:00:31.509 - Action: back keycode was pressed
+2022-08-25 19:00:34.049 - System.IO.FileNotFoundException: Could not find file 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'.
+File name: 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 140
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 95
+   at EasyScanSpecflow.Hooks.InitializeHook.AfterTestRun() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\InitializeHook.cs:line 61
+2022-08-25 19:07:21.366 - Started test: CheckUnknownItem("1",null)
+2022-08-25 19:07:21.747 - Alert: Price checker button could not be found
+2022-08-25 19:07:21.760 - Alert: Price checker button could not be found
+2022-08-25 19:07:21.772 - Alert: Price checker button could not be found
+2022-08-25 19:07:21.786 - Alert: Price checker button could not be found
+2022-08-25 19:07:21.798 - Alert: Price checker button could not be found
+2022-08-25 19:07:21.810 - Alert: Price checker button could not be found
+2022-08-25 19:07:21.822 - Alert: Price checker button could not be found
+2022-08-25 19:07:21.823 - Alert: Could not load main screen
+2022-08-25 19:07:21.864 - Step: user selects price checker
+2022-08-25 19:07:22.849 - Action: price checker button was pressed
+2022-08-25 19:07:22.855 - Step: Plus button is pressed
+2022-08-25 19:07:23.498 - Action: add button was pressed
+2022-08-25 19:07:23.506 - Step: Product code 1 is entered and submitted
+2022-08-25 19:07:24.699 - Action: product code was entered - 1
+2022-08-25 19:07:25.268 - Action: submit button was pressed
+2022-08-25 19:07:25.271 - Step: app return message that item not found
+2022-08-25 19:07:30.378 - OpenQA.Selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(By by)
+   at EasyScanSpecflow.Pages.PriceCheckerPage.get_ToastMessage() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Pages\PriceCheckerPage.cs:line 42
+   at EasyScanSpecflow.Pages.PriceCheckerPage.getToastMessage() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Pages\PriceCheckerPage.cs:line 258
+2022-08-25 19:07:30.437 - NUnit.Framework.AssertionException:   Expected string length 0 but was 35. Strings differ at index 0.
+  Expected: <string.Empty>
+  But was:  "Information about barcode not found"
+  -----------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenAppReturnMessageThatItemNotFound() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 133
+2022-08-25 19:07:30.448 - Test ended.
+2022-08-25 19:07:36.326 - Alert: Price checker button could not be found
+2022-08-25 19:07:36.540 - Action: back keycode was pressed
+2022-08-25 19:07:38.834 - System.IO.FileNotFoundException: Could not find file 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'.
+File name: 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 140
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 95
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 176
+2022-08-25 19:09:42.993 - Started test: CheckUnknownItem("1",null)
+2022-08-25 19:09:43.501 - Alert: Price checker button could not be found
+2022-08-25 19:09:43.514 - Alert: Price checker button could not be found
+2022-08-25 19:09:43.528 - Alert: Price checker button could not be found
+2022-08-25 19:09:43.541 - Alert: Price checker button could not be found
+2022-08-25 19:09:43.553 - Alert: Price checker button could not be found
+2022-08-25 19:09:43.566 - Alert: Price checker button could not be found
+2022-08-25 19:09:43.580 - Alert: Price checker button could not be found
+2022-08-25 19:09:43.580 - Alert: Could not load main screen
+2022-08-25 19:09:43.620 - Step: user selects price checker
+2022-08-25 19:09:44.456 - Action: price checker button was pressed
+2022-08-25 19:09:44.463 - Step: Plus button is pressed
+2022-08-25 19:09:45.112 - Action: add button was pressed
+2022-08-25 19:09:45.117 - Step: Product code 1 is entered and submitted
+2022-08-25 19:09:46.276 - Action: product code was entered - 1
+2022-08-25 19:09:46.847 - Action: submit button was pressed
+2022-08-25 19:09:46.850 - Step: app return message that item not found
+2022-08-25 19:09:51.952 - OpenQA.Selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(By by)
+   at EasyScanSpecflow.Pages.PriceCheckerPage.get_ToastMessage() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Pages\PriceCheckerPage.cs:line 42
+   at EasyScanSpecflow.Pages.PriceCheckerPage.getToastMessage() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Pages\PriceCheckerPage.cs:line 258
+2022-08-25 19:09:52.007 - NUnit.Framework.AssertionException:   Expected string length 0 but was 35. Strings differ at index 0.
+  Expected: <string.Empty>
+  But was:  "Information about barcode not found"
+  -----------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenAppReturnMessageThatItemNotFound() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 133
+2022-08-25 19:09:52.018 - Test ended.
+2022-08-25 19:09:58.191 - Alert: Price checker button could not be found
+2022-08-25 19:09:58.363 - Action: back keycode was pressed
+2022-08-25 19:10:10.553 - System.IO.FileNotFoundException: Could not find file 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'.
+File name: 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 140
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 95
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 178
+2022-08-25 19:10:59.337 - Started test: CheckUnknownItem("1",null)
+2022-08-25 19:10:59.864 - Alert: Price checker button could not be found
+2022-08-25 19:10:59.879 - Alert: Price checker button could not be found
+2022-08-25 19:10:59.891 - Alert: Price checker button could not be found
+2022-08-25 19:10:59.903 - Alert: Price checker button could not be found
+2022-08-25 19:10:59.917 - Alert: Price checker button could not be found
+2022-08-25 19:10:59.929 - Alert: Price checker button could not be found
+2022-08-25 19:10:59.943 - Alert: Price checker button could not be found
+2022-08-25 19:10:59.943 - Alert: Could not load main screen
+2022-08-25 19:10:59.983 - Step: user selects price checker
+2022-08-25 19:11:00.891 - Action: price checker button was pressed
+2022-08-25 19:11:00.897 - Step: Plus button is pressed
+2022-08-25 19:11:01.503 - Action: add button was pressed
+2022-08-25 19:11:01.508 - Step: Product code 1 is entered and submitted
+2022-08-25 19:11:02.675 - Action: product code was entered - 1
+2022-08-25 19:11:03.237 - Action: submit button was pressed
+2022-08-25 19:11:03.240 - Step: app return message that item not found
+2022-08-25 19:11:08.339 - OpenQA.Selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(By by)
+   at EasyScanSpecflow.Pages.PriceCheckerPage.get_ToastMessage() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Pages\PriceCheckerPage.cs:line 42
+   at EasyScanSpecflow.Pages.PriceCheckerPage.getToastMessage() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Pages\PriceCheckerPage.cs:line 258
+2022-08-25 19:11:08.394 - NUnit.Framework.AssertionException:   Expected string length 0 but was 35. Strings differ at index 0.
+  Expected: <string.Empty>
+  But was:  "Information about barcode not found"
+  -----------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenAppReturnMessageThatItemNotFound() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 133
+2022-08-25 19:11:08.402 - Test ended.
+2022-08-25 19:11:14.336 - Alert: Price checker button could not be found
+2022-08-25 19:11:14.517 - Action: back keycode was pressed
+2022-08-25 19:11:27.103 - System.IO.FileNotFoundException: Could not find file 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'.
+File name: 'C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\bin\Debug\net48\LivingDoc.html'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 140
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data) in C:\Users\valac\source\repos\StrongPoint\EasyScan\dotnet\Gurock\TestRail\APIClient.cs:line 95
+   at EasyScanSpecflow.Hooks.InitializeHook.AfterTestRun() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\InitializeHook.cs:line 63

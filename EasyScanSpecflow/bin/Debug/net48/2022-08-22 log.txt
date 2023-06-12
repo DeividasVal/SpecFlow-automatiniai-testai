@@ -1,0 +1,1570 @@
+2022-08-22 10:02:41.425 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:02:41.426 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:02:41.427 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:02:41.481 - Test ended.
+2022-08-22 10:02:42.686 - Alert: Price checker button could not be found
+2022-08-22 10:02:42.686 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:05:27.524 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:05:27.524 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:05:27.525 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:05:27.576 - Test ended.
+2022-08-22 10:05:28.636 - Alert: Price checker button could not be found
+2022-08-22 10:05:28.636 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:26:15.771 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s R5CT21D4G2Z shell getprop ro.build.version.sdk' exited with code 1'; Command output: adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:26:15.772 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:26:15.772 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:26:15.828 - Test ended.
+2022-08-22 10:26:16.813 - Alert: Price checker button could not be found
+2022-08-22 10:26:16.813 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:26:35.369 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\valac\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk'. Original error: Could not find 'apksigner.jar' in ["C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\platform-tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\emulator\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\cmdline-tools\\latest\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\apksigner.jar"]. Do you have Android Build Tools installed at 'C:\Users\valac\AppData\Local\Android\Sdk\platform-tools'?
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:26:35.370 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:26:35.370 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:26:35.427 - Test ended.
+2022-08-22 10:26:36.149 - Alert: Price checker button could not be found
+2022-08-22 10:26:36.150 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:27:07.696 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\valac\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk'. Original error: Could not find 'apksigner.jar' in ["C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\platform-tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\emulator\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\cmdline-tools\\latest\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\apksigner.jar"]. Do you have Android Build Tools installed at 'C:\Users\valac\AppData\Local\Android\Sdk\platform-tools'?
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:27:07.697 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:27:07.698 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:27:07.754 - Test ended.
+2022-08-22 10:27:08.781 - Alert: Price checker button could not be found
+2022-08-22 10:27:08.782 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:28:58.999 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\valac\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk'. Original error: Could not find 'apksigner.jar' in ["C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\platform-tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\emulator\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\cmdline-tools\\latest\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\apksigner.jar"]. Do you have Android Build Tools installed at 'C:\Users\valac\AppData\Local\Android\Sdk\platform-tools'?
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:28:58.999 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:28:59.000 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:28:59.056 - Test ended.
+2022-08-22 10:28:59.795 - Alert: Price checker button could not be found
+2022-08-22 10:28:59.795 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:30:17.634 - OpenQA.Selenium.WebDriverException: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:4723
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Appium.Service.AppiumCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:30:17.635 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:30:17.635 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:30:17.692 - Test ended.
+2022-08-22 10:30:18.297 - Alert: Price checker button could not be found
+2022-08-22 10:30:18.297 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:30:51.823 - OpenQA.Selenium.WebDriverException: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:4723
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Appium.Service.AppiumCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:30:51.824 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:30:51.825 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:30:51.889 - Test ended.
+2022-08-22 10:30:52.516 - Alert: Price checker button could not be found
+2022-08-22 10:30:52.517 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:31:08.064 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\valac\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk'. Original error: Could not find 'apksigner.jar' in ["C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\platform-tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\emulator\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\cmdline-tools\\latest\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\apksigner.jar"]. Do you have Android Build Tools installed at 'C:\Users\valac\AppData\Local\Android\Sdk\platform-tools'?
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:31:08.065 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:31:08.065 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:31:08.122 - Test ended.
+2022-08-22 10:31:08.838 - Alert: Price checker button could not be found
+2022-08-22 10:31:08.838 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:43:11.097 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s R5CT21D4G2Z shell getprop ro.build.version.sdk' exited with code 1'; Command output: adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:43:11.098 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:43:11.098 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:43:11.150 - Test ended.
+2022-08-22 10:43:12.223 - Alert: Price checker button could not be found
+2022-08-22 10:43:12.223 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:43:30.795 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s R5CT21D4G2Z shell getprop ro.build.version.sdk' exited with code 1'; Command output: adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:43:30.796 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:43:30.797 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:43:30.854 - Test ended.
+2022-08-22 10:43:31.908 - Alert: Price checker button could not be found
+2022-08-22 10:43:31.908 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:46:59.152 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20249ms.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:46:59.153 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:46:59.153 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:46:59.220 - Test ended.
+2022-08-22 10:47:00.289 - Alert: Price checker button could not be found
+2022-08-22 10:47:00.289 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:47:13.852 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\valac\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk'. Original error: Could not find 'apksigner.jar' in ["C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\platform-tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\emulator\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\cmdline-tools\\latest\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\apksigner.jar"]. Do you have Android Build Tools installed at 'C:\Users\valac\AppData\Local\Android\Sdk\platform-tools'?
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:47:13.853 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:47:13.853 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:47:13.910 - Test ended.
+2022-08-22 10:47:15.137 - Alert: Price checker button could not be found
+2022-08-22 10:47:15.137 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:51:12.107 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find 'adb.exe' in ["C:\\Users\\valac\\Downloads\\build-tools_r33-windows\\android-13\\platform-tools\\adb.exe","C:\\Users\\valac\\Downloads\\build-tools_r33-windows\\android-13\\emulator\\adb.exe","C:\\Users\\valac\\Downloads\\build-tools_r33-windows\\android-13\\cmdline-tools\\latest\\bin\\adb.exe","C:\\Users\\valac\\Downloads\\build-tools_r33-windows\\android-13\\tools\\adb.exe","C:\\Users\\valac\\Downloads\\build-tools_r33-windows\\android-13\\tools\\bin\\adb.exe","C:\\Users\\valac\\Downloads\\build-tools_r33-windows\\android-13\\adb.exe"]. Do you have Android Build Tools installed at 'C:\Users\valac\Downloads\build-tools_r33-windows\android-13'?
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:51:12.108 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:51:12.109 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:51:12.166 - Test ended.
+2022-08-22 10:51:12.979 - Alert: Price checker button could not be found
+2022-08-22 10:51:12.979 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:53:38.631 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\valac\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk'. Original error: Could not find 'apksigner.jar' in ["C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\platform-tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\emulator\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\cmdline-tools\\latest\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\apksigner.jar"]. Do you have Android Build Tools installed at 'C:\Users\valac\AppData\Local\Android\Sdk\platform-tools'?
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:53:38.632 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:53:38.633 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:53:38.691 - Test ended.
+2022-08-22 10:53:40.893 - Alert: Price checker button could not be found
+2022-08-22 10:53:40.893 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:54:46.194 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\valac\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk'. Original error: Could not find 'apksigner.jar' in ["C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\platform-tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\emulator\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\cmdline-tools\\latest\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\apksigner.jar"]. Do you have Android Build Tools installed at 'C:\Users\valac\AppData\Local\Android\Sdk\platform-tools'?
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:54:46.195 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:54:46.196 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:54:46.254 - Test ended.
+2022-08-22 10:54:47.355 - Alert: Price checker button could not be found
+2022-08-22 10:54:47.355 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 10:58:27.883 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\valac\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk'. Original error: Could not find 'apksigner.jar' in ["C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\platform-tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\emulator\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\cmdline-tools\\latest\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\apksigner.jar"]. Do you have Android Build Tools installed at 'C:\Users\valac\AppData\Local\Android\Sdk\platform-tools'?
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 10:58:27.884 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 10:58:27.885 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 10:58:27.942 - Test ended.
+2022-08-22 10:58:29.011 - Alert: Price checker button could not be found
+2022-08-22 10:58:29.011 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 11:00:16.704 - OpenQA.Selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\Users\valac\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk'. Original error: Could not find 'apksigner.jar' in ["C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\platform-tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\emulator\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\cmdline-tools\\latest\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\tools\\bin\\apksigner.jar","C:\\Users\\valac\\AppData\\Local\\Android\\Sdk\\platform-tools\\apksigner.jar"]. Do you have Android Build Tools installed at 'C:\Users\valac\AppData\Local\Android\Sdk\platform-tools'?
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)
+   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)
+   at EasyScanSpecflow.Drivers.AppiumDriver.InitializeAppium() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Drivers\AppiumDriver.cs:line 37
+2022-08-22 11:00:16.705 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 11:00:16.705 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.BeforeScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 57
+2022-08-22 11:00:16.763 - Test ended.
+2022-08-22 11:00:17.670 - Alert: Price checker button could not be found
+2022-08-22 11:00:17.670 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 135
+2022-08-22 11:02:16.840 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 11:02:17.269 - Alert: Price checker button could not be found
+2022-08-22 11:02:17.281 - Alert: Price checker button could not be found
+2022-08-22 11:02:17.293 - Alert: Price checker button could not be found
+2022-08-22 11:02:17.304 - Alert: Price checker button could not be found
+2022-08-22 11:02:17.316 - Alert: Price checker button could not be found
+2022-08-22 11:02:17.333 - Alert: Price checker button could not be found
+2022-08-22 11:02:17.345 - Alert: Price checker button could not be found
+2022-08-22 11:02:17.345 - Alert: Could not load main screen
+2022-08-22 11:02:17.372 - Step: user selects price checker
+2022-08-22 11:02:18.384 - Action: price checker button was pressed
+2022-08-22 11:02:18.389 - Step: Plus button is pressed
+2022-08-22 11:02:19.062 - Action: add button was pressed
+2022-08-22 11:02:19.067 - Step: Product code 1222 is entered and submitted
+2022-08-22 11:02:20.294 - Action: product code was entered - 1222
+2022-08-22 11:02:20.837 - Action: submit button was pressed
+2022-08-22 11:02:20.839 - Step: app return message that item not found
+2022-08-22 11:02:21.529 - Test ended.
+2022-08-22 11:02:27.531 - Alert: Price checker button could not be found
+2022-08-22 11:02:27.696 - Action: back keycode was pressed
+2022-08-22 11:09:21.271 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 11:09:21.693 - Alert: Price checker button could not be found
+2022-08-22 11:09:21.704 - Alert: Price checker button could not be found
+2022-08-22 11:09:21.719 - Alert: Price checker button could not be found
+2022-08-22 11:09:21.734 - Alert: Price checker button could not be found
+2022-08-22 11:09:21.749 - Alert: Price checker button could not be found
+2022-08-22 11:09:21.765 - Alert: Price checker button could not be found
+2022-08-22 11:09:21.778 - Alert: Price checker button could not be found
+2022-08-22 11:09:21.778 - Alert: Could not load main screen
+2022-08-22 11:09:21.804 - Step: user selects price checker
+2022-08-22 11:09:22.842 - Action: price checker button was pressed
+2022-08-22 11:09:22.847 - Step: Plus button is pressed
+2022-08-22 11:09:23.438 - Action: add button was pressed
+2022-08-22 11:09:23.443 - Step: Product code 1222 is entered and submitted
+2022-08-22 11:09:24.621 - Action: product code was entered - 1222
+2022-08-22 11:09:25.168 - Action: submit button was pressed
+2022-08-22 11:09:25.171 - Step: app return message that item not found
+2022-08-22 11:09:25.838 - Test ended.
+2022-08-22 11:09:27.371 - Gurock.TestRail.APIException: TestRail API returned HTTP 403 ("The requested project does not exist or you do not have the permissions to access it.")
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data)
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data)
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 124
+2022-08-22 11:12:37.693 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 11:12:38.098 - Alert: Price checker button could not be found
+2022-08-22 11:12:38.111 - Alert: Price checker button could not be found
+2022-08-22 11:12:38.123 - Alert: Price checker button could not be found
+2022-08-22 11:12:38.135 - Alert: Price checker button could not be found
+2022-08-22 11:12:38.147 - Alert: Price checker button could not be found
+2022-08-22 11:12:38.164 - Alert: Price checker button could not be found
+2022-08-22 11:12:38.176 - Alert: Price checker button could not be found
+2022-08-22 11:12:38.177 - Alert: Could not load main screen
+2022-08-22 11:12:38.202 - Step: user selects price checker
+2022-08-22 11:12:39.219 - Action: price checker button was pressed
+2022-08-22 11:12:39.225 - Step: Plus button is pressed
+2022-08-22 11:12:39.880 - Action: add button was pressed
+2022-08-22 11:12:39.884 - Step: Product code 1222 is entered and submitted
+2022-08-22 11:12:41.101 - Action: product code was entered - 1222
+2022-08-22 11:12:41.631 - Action: submit button was pressed
+2022-08-22 11:12:41.633 - Step: app return message that item not found
+2022-08-22 11:12:42.268 - Test ended.
+2022-08-22 11:12:43.204 - Gurock.TestRail.APIException: TestRail API returned HTTP 403 ("The requested project does not exist or you do not have the permissions to access it.")
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data)
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data)
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 124
+2022-08-22 13:22:44.239 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 13:22:44.645 - Alert: Price checker button could not be found
+2022-08-22 13:22:44.657 - Alert: Price checker button could not be found
+2022-08-22 13:22:44.669 - Alert: Price checker button could not be found
+2022-08-22 13:22:44.681 - Alert: Price checker button could not be found
+2022-08-22 13:22:44.692 - Alert: Price checker button could not be found
+2022-08-22 13:22:44.708 - Alert: Price checker button could not be found
+2022-08-22 13:22:44.720 - Alert: Price checker button could not be found
+2022-08-22 13:22:44.720 - Alert: Could not load main screen
+2022-08-22 13:22:44.745 - Step: user selects price checker
+2022-08-22 13:22:45.765 - Action: price checker button was pressed
+2022-08-22 13:22:45.770 - Step: Plus button is pressed
+2022-08-22 13:22:46.414 - Action: add button was pressed
+2022-08-22 13:22:46.419 - Step: Product code 1222 is entered and submitted
+2022-08-22 13:22:47.594 - Action: product code was entered - 1222
+2022-08-22 13:22:48.159 - Action: submit button was pressed
+2022-08-22 13:22:48.162 - Step: app return message that item not found
+2022-08-22 13:22:48.831 - Test ended.
+2022-08-22 13:22:50.047 - Gurock.TestRail.APIException: TestRail API returned HTTP 400 ("Invalid characters in URI: [/api/v2//index_php?/api/v2/add_attachment_to_result/1418]")
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data)
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data)
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 124
+2022-08-22 13:27:02.555 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 13:27:02.983 - Alert: Price checker button could not be found
+2022-08-22 13:27:02.994 - Alert: Price checker button could not be found
+2022-08-22 13:27:03.006 - Alert: Price checker button could not be found
+2022-08-22 13:27:03.016 - Alert: Price checker button could not be found
+2022-08-22 13:27:03.028 - Alert: Price checker button could not be found
+2022-08-22 13:27:03.044 - Alert: Price checker button could not be found
+2022-08-22 13:27:03.056 - Alert: Price checker button could not be found
+2022-08-22 13:27:03.056 - Alert: Could not load main screen
+2022-08-22 13:27:03.082 - Step: user selects price checker
+2022-08-22 13:27:04.117 - Action: price checker button was pressed
+2022-08-22 13:27:04.121 - Step: Plus button is pressed
+2022-08-22 13:27:04.762 - Action: add button was pressed
+2022-08-22 13:27:04.766 - Step: Product code 1222 is entered and submitted
+2022-08-22 13:27:05.967 - Action: product code was entered - 1222
+2022-08-22 13:27:06.531 - Action: submit button was pressed
+2022-08-22 13:27:06.533 - Step: app return message that item not found
+2022-08-22 13:27:07.205 - Test ended.
+2022-08-22 13:27:07.961 - Gurock.TestRail.APIException: TestRail API returned HTTP 400 ("Invalid characters in URI: [/api/v2//index_php?/add_attachment_to_result/1418]")
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data)
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data)
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 124
+2022-08-22 13:45:45.090 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 13:45:45.503 - Alert: Price checker button could not be found
+2022-08-22 13:45:45.514 - Alert: Price checker button could not be found
+2022-08-22 13:45:45.526 - Alert: Price checker button could not be found
+2022-08-22 13:45:45.538 - Alert: Price checker button could not be found
+2022-08-22 13:45:45.550 - Alert: Price checker button could not be found
+2022-08-22 13:45:45.565 - Alert: Price checker button could not be found
+2022-08-22 13:45:45.576 - Alert: Price checker button could not be found
+2022-08-22 13:45:45.576 - Alert: Could not load main screen
+2022-08-22 13:45:45.602 - Step: user selects price checker
+2022-08-22 13:45:46.672 - Action: price checker button was pressed
+2022-08-22 13:45:46.676 - Step: Plus button is pressed
+2022-08-22 13:45:47.316 - Action: add button was pressed
+2022-08-22 13:45:47.320 - Step: Product code 1222 is entered and submitted
+2022-08-22 13:45:48.495 - Action: product code was entered - 1222
+2022-08-22 13:45:49.052 - Action: submit button was pressed
+2022-08-22 13:45:49.055 - Step: app return message that item not found
+2022-08-22 13:45:49.725 - Test ended.
+2022-08-22 13:45:50.437 - Gurock.TestRail.APIException: TestRail API returned HTTP 400 ("Invalid characters in URI: [/api/v2/https://sp_redmine_lt/index_php?/api/v2/add_attachment_to_result/1/1418]")
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data)
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data)
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 124
+2022-08-22 13:46:41.593 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 13:46:42.134 - Alert: Price checker button could not be found
+2022-08-22 13:46:42.146 - Alert: Price checker button could not be found
+2022-08-22 13:46:42.159 - Alert: Price checker button could not be found
+2022-08-22 13:46:42.171 - Alert: Price checker button could not be found
+2022-08-22 13:46:42.187 - Alert: Price checker button could not be found
+2022-08-22 13:46:42.198 - Alert: Price checker button could not be found
+2022-08-22 13:46:42.210 - Alert: Price checker button could not be found
+2022-08-22 13:46:42.210 - Alert: Could not load main screen
+2022-08-22 13:46:42.236 - Step: user selects price checker
+2022-08-22 13:46:43.125 - Action: price checker button was pressed
+2022-08-22 13:46:43.130 - Step: Plus button is pressed
+2022-08-22 13:46:43.785 - Action: add button was pressed
+2022-08-22 13:46:43.789 - Step: Product code 1222 is entered and submitted
+2022-08-22 13:46:45.005 - Action: product code was entered - 1222
+2022-08-22 13:46:45.560 - Action: submit button was pressed
+2022-08-22 13:46:45.563 - Step: app return message that item not found
+2022-08-22 13:46:46.182 - Test ended.
+2022-08-22 13:46:46.874 - Gurock.TestRail.APIException: TestRail API returned HTTP 400 ("Invalid characters in URI: [/api/v2/https://sp_redmine_lt/index_php?/api/v2/add_attachment_to_result/1/1418]")
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data)
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data)
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 124
+2022-08-22 13:46:46.880 - Started test: PriceChecks
+2022-08-22 13:46:52.193 - Alert: Price checker button could not be found
+2022-08-22 13:46:57.253 - Alert: Price checker button could not be found
+2022-08-22 13:47:02.279 - Alert: Price checker button could not be found
+2022-08-22 13:47:07.322 - Alert: Price checker button could not be found
+2022-08-22 13:47:12.376 - Alert: Price checker button could not be found
+2022-08-22 13:47:17.430 - Alert: Price checker button could not be found
+2022-08-22 13:47:22.470 - Alert: Price checker button could not be found
+2022-08-22 13:47:22.470 - Alert: Could not load main screen
+2022-08-22 13:47:22.472 - Step: user selects price checker
+2022-08-22 13:47:27.525 - OpenQA.Selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.OpenQA.Selenium.Internal.IFindsById.FindElementById(String id)
+   at OpenQA.Selenium.By.<>c__DisplayClass16_0.<Id>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(By by)
+   at EasyScanSpecflow.Pages.MainPage.get_PriceCheckerButton() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Pages\MainPage.cs:line 20
+   at EasyScanSpecflow.Pages.MainPage.PressPriceCheckerButton() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Pages\MainPage.cs:line 81
+2022-08-22 13:47:27.539 - Test ended.
+2022-08-22 13:47:28.105 - Gurock.TestRail.APIException: TestRail API returned HTTP 400 ("Invalid characters in URI: [/api/v2/https://sp_redmine_lt/index_php?/api/v2/add_attachment_to_result/1/1418]")
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data)
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data)
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 124
+2022-08-22 13:57:17.797 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 13:57:18.352 - Alert: Price checker button could not be found
+2022-08-22 13:57:18.364 - Alert: Price checker button could not be found
+2022-08-22 13:57:18.376 - Alert: Price checker button could not be found
+2022-08-22 13:57:18.387 - Alert: Price checker button could not be found
+2022-08-22 13:57:18.399 - Alert: Price checker button could not be found
+2022-08-22 13:57:18.415 - Alert: Price checker button could not be found
+2022-08-22 13:57:18.427 - Alert: Price checker button could not be found
+2022-08-22 13:57:18.427 - Alert: Could not load main screen
+2022-08-22 13:57:18.453 - Step: user selects price checker
+2022-08-22 13:57:19.343 - Action: price checker button was pressed
+2022-08-22 13:57:19.347 - Step: Plus button is pressed
+2022-08-22 13:57:19.975 - Action: add button was pressed
+2022-08-22 13:57:19.978 - Step: Product code 1222 is entered and submitted
+2022-08-22 13:57:21.142 - Action: product code was entered - 1222
+2022-08-22 13:57:21.703 - Action: submit button was pressed
+2022-08-22 13:57:21.706 - Step: app return message that item not found
+2022-08-22 13:57:22.348 - Test ended.
+2022-08-22 13:57:23.373 - Gurock.TestRail.APIException: TestRail API returned HTTP 400 ("Invalid characters in URI: [/api/v2/https://sp_redmine_lt/index_php?/api/v2/add_attachment_to_result/1/1418]")
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data)
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data)
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 124
+2022-08-22 13:57:23.379 - Started test: PriceChecks
+2022-08-22 13:57:28.704 - Alert: Price checker button could not be found
+2022-08-22 13:57:33.764 - Alert: Price checker button could not be found
+2022-08-22 13:57:38.813 - Alert: Price checker button could not be found
+2022-08-22 13:57:43.860 - Alert: Price checker button could not be found
+2022-08-22 13:57:48.879 - Alert: Price checker button could not be found
+2022-08-22 13:57:54.152 - Alert: Price checker button could not be found
+2022-08-22 13:57:59.266 - Alert: Price checker button could not be found
+2022-08-22 13:57:59.266 - Alert: Could not load main screen
+2022-08-22 13:57:59.269 - Step: user selects price checker
+2022-08-22 13:58:04.372 - OpenQA.Selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.OpenQA.Selenium.Internal.IFindsById.FindElementById(String id)
+   at OpenQA.Selenium.By.<>c__DisplayClass16_0.<Id>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(By by)
+   at EasyScanSpecflow.Pages.MainPage.get_PriceCheckerButton() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Pages\MainPage.cs:line 20
+   at EasyScanSpecflow.Pages.MainPage.PressPriceCheckerButton() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Pages\MainPage.cs:line 81
+2022-08-22 13:58:04.383 - Test ended.
+2022-08-22 13:58:05.013 - Gurock.TestRail.APIException: TestRail API returned HTTP 400 ("Invalid characters in URI: [/api/v2/https://sp_redmine_lt/index_php?/api/v2/add_attachment_to_result/1/1418]")
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data)
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data)
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 124
+2022-08-22 14:01:50.935 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 14:01:51.345 - Alert: Price checker button could not be found
+2022-08-22 14:01:51.357 - Alert: Price checker button could not be found
+2022-08-22 14:01:51.369 - Alert: Price checker button could not be found
+2022-08-22 14:01:51.380 - Alert: Price checker button could not be found
+2022-08-22 14:01:51.391 - Alert: Price checker button could not be found
+2022-08-22 14:01:51.407 - Alert: Price checker button could not be found
+2022-08-22 14:01:51.419 - Alert: Price checker button could not be found
+2022-08-22 14:01:51.419 - Alert: Could not load main screen
+2022-08-22 14:01:51.445 - Step: user selects price checker
+2022-08-22 14:01:52.455 - Action: price checker button was pressed
+2022-08-22 14:01:52.459 - Step: Plus button is pressed
+2022-08-22 14:01:53.125 - Action: add button was pressed
+2022-08-22 14:01:53.129 - Step: Product code 1222 is entered and submitted
+2022-08-22 14:01:54.343 - Action: product code was entered - 1222
+2022-08-22 14:01:54.904 - Action: submit button was pressed
+2022-08-22 14:01:54.906 - Step: app return message that item not found
+2022-08-22 14:01:55.516 - Test ended.
+2022-08-22 14:02:01.591 - Alert: Price checker button could not be found
+2022-08-22 14:02:01.748 - Action: back keycode was pressed
+2022-08-22 14:03:03.108 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 14:03:03.515 - Alert: Price checker button could not be found
+2022-08-22 14:03:03.525 - Alert: Price checker button could not be found
+2022-08-22 14:03:03.538 - Alert: Price checker button could not be found
+2022-08-22 14:03:03.550 - Alert: Price checker button could not be found
+2022-08-22 14:03:03.561 - Alert: Price checker button could not be found
+2022-08-22 14:03:03.578 - Alert: Price checker button could not be found
+2022-08-22 14:03:03.589 - Alert: Price checker button could not be found
+2022-08-22 14:03:03.589 - Alert: Could not load main screen
+2022-08-22 14:03:03.615 - Step: user selects price checker
+2022-08-22 14:03:04.632 - Action: price checker button was pressed
+2022-08-22 14:03:04.637 - Step: Plus button is pressed
+2022-08-22 14:03:05.277 - Action: add button was pressed
+2022-08-22 14:03:05.281 - Step: Product code 1222 is entered and submitted
+2022-08-22 14:03:06.485 - Action: product code was entered - 1222
+2022-08-22 14:03:07.055 - Action: submit button was pressed
+2022-08-22 14:03:07.057 - Step: app return message that item not found
+2022-08-22 14:03:07.675 - Test ended.
+2022-08-22 14:03:13.349 - Alert: Price checker button could not be found
+2022-08-22 14:03:13.533 - Action: back keycode was pressed
+2022-08-22 14:04:39.473 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 14:04:40.030 - Alert: Price checker button could not be found
+2022-08-22 14:04:40.042 - Alert: Price checker button could not be found
+2022-08-22 14:04:40.054 - Alert: Price checker button could not be found
+2022-08-22 14:04:40.065 - Alert: Price checker button could not be found
+2022-08-22 14:04:40.077 - Alert: Price checker button could not be found
+2022-08-22 14:04:40.093 - Alert: Price checker button could not be found
+2022-08-22 14:04:40.104 - Alert: Price checker button could not be found
+2022-08-22 14:04:40.105 - Alert: Could not load main screen
+2022-08-22 14:04:40.130 - Step: user selects price checker
+2022-08-22 14:04:41.029 - Action: price checker button was pressed
+2022-08-22 14:04:41.033 - Step: Plus button is pressed
+2022-08-22 14:04:41.692 - Action: add button was pressed
+2022-08-22 14:04:41.697 - Step: Product code 1222 is entered and submitted
+2022-08-22 14:04:42.916 - Action: product code was entered - 1222
+2022-08-22 14:04:43.468 - Action: submit button was pressed
+2022-08-22 14:04:43.470 - Step: app return message that item not found
+2022-08-22 14:04:44.100 - Test ended.
+2022-08-22 14:04:50.165 - Alert: Price checker button could not be found
+2022-08-22 14:04:50.326 - Action: back keycode was pressed
+2022-08-22 14:19:40.453 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 14:19:40.848 - Alert: Price checker button could not be found
+2022-08-22 14:19:40.861 - Alert: Price checker button could not be found
+2022-08-22 14:19:40.874 - Alert: Price checker button could not be found
+2022-08-22 14:19:40.885 - Alert: Price checker button could not be found
+2022-08-22 14:19:40.895 - Alert: Price checker button could not be found
+2022-08-22 14:19:40.912 - Alert: Price checker button could not be found
+2022-08-22 14:19:40.923 - Alert: Price checker button could not be found
+2022-08-22 14:19:40.923 - Alert: Could not load main screen
+2022-08-22 14:19:40.949 - Step: user selects price checker
+2022-08-22 14:19:41.933 - Action: price checker button was pressed
+2022-08-22 14:19:41.937 - Step: Plus button is pressed
+2022-08-22 14:19:42.600 - Action: add button was pressed
+2022-08-22 14:19:42.605 - Step: Product code 1222 is entered and submitted
+2022-08-22 14:19:43.784 - Action: product code was entered - 1222
+2022-08-22 14:19:44.338 - Action: submit button was pressed
+2022-08-22 14:19:44.340 - Step: app return message that item not found
+2022-08-22 14:19:45.052 - Test ended.
+2022-08-22 14:19:46.169 - Gurock.TestRail.APIException: TestRail API returned HTTP 400 ("Invalid characters in URI: [/api/v2/https://sp_redmine_lt/index_php?/api/v2/add_attachment_to_result/1/1418]")
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data)
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data)
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 124
+2022-08-22 14:21:50.926 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 14:21:51.342 - Alert: Price checker button could not be found
+2022-08-22 14:21:51.353 - Alert: Price checker button could not be found
+2022-08-22 14:21:51.366 - Alert: Price checker button could not be found
+2022-08-22 14:21:51.378 - Alert: Price checker button could not be found
+2022-08-22 14:21:51.390 - Alert: Price checker button could not be found
+2022-08-22 14:21:51.406 - Alert: Price checker button could not be found
+2022-08-22 14:21:51.417 - Alert: Price checker button could not be found
+2022-08-22 14:21:51.418 - Alert: Could not load main screen
+2022-08-22 14:21:51.444 - Step: user selects price checker
+2022-08-22 14:21:52.456 - Action: price checker button was pressed
+2022-08-22 14:21:52.460 - Step: Plus button is pressed
+2022-08-22 14:21:53.134 - Action: add button was pressed
+2022-08-22 14:21:53.139 - Step: Product code 1222 is entered and submitted
+2022-08-22 14:21:54.314 - Action: product code was entered - 1222
+2022-08-22 14:21:54.877 - Action: submit button was pressed
+2022-08-22 14:21:54.878 - Step: app return message that item not found
+2022-08-22 14:21:55.495 - Test ended.
+2022-08-22 14:21:56.443 - Gurock.TestRail.APIException: TestRail API returned HTTP 403 ("The requested project does not exist or you do not have the permissions to access it.")
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data)
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data)
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 124
+2022-08-22 14:24:48.830 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 14:24:49.246 - Alert: Price checker button could not be found
+2022-08-22 14:24:49.257 - Alert: Price checker button could not be found
+2022-08-22 14:24:49.270 - Alert: Price checker button could not be found
+2022-08-22 14:24:49.280 - Alert: Price checker button could not be found
+2022-08-22 14:24:49.291 - Alert: Price checker button could not be found
+2022-08-22 14:24:49.306 - Alert: Price checker button could not be found
+2022-08-22 14:24:49.319 - Alert: Price checker button could not be found
+2022-08-22 14:24:49.319 - Alert: Could not load main screen
+2022-08-22 14:24:49.345 - Step: user selects price checker
+2022-08-22 14:24:50.369 - Action: price checker button was pressed
+2022-08-22 14:24:50.373 - Step: Plus button is pressed
+2022-08-22 14:24:51.009 - Action: add button was pressed
+2022-08-22 14:24:51.013 - Step: Product code 1222 is entered and submitted
+2022-08-22 14:24:52.202 - Action: product code was entered - 1222
+2022-08-22 14:24:52.744 - Action: submit button was pressed
+2022-08-22 14:24:52.747 - Step: app return message that item not found
+2022-08-22 14:24:53.376 - Test ended.
+2022-08-22 14:24:54.333 - Gurock.TestRail.APIException: TestRail API returned HTTP 403 ("The requested project does not exist or you do not have the permissions to access it.")
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data)
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data)
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 124
+2022-08-22 14:35:21.641 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 14:35:22.053 - Alert: Price checker button could not be found
+2022-08-22 14:35:22.065 - Alert: Price checker button could not be found
+2022-08-22 14:35:22.077 - Alert: Price checker button could not be found
+2022-08-22 14:35:22.089 - Alert: Price checker button could not be found
+2022-08-22 14:35:22.100 - Alert: Price checker button could not be found
+2022-08-22 14:35:22.117 - Alert: Price checker button could not be found
+2022-08-22 14:35:22.133 - Alert: Price checker button could not be found
+2022-08-22 14:35:22.133 - Alert: Could not load main screen
+2022-08-22 14:35:22.159 - Step: user selects price checker
+2022-08-22 14:35:23.184 - Action: price checker button was pressed
+2022-08-22 14:35:23.189 - Step: Plus button is pressed
+2022-08-22 14:35:23.870 - Action: add button was pressed
+2022-08-22 14:35:23.874 - Step: Product code 1222 is entered and submitted
+2022-08-22 14:35:25.025 - Action: product code was entered - 1222
+2022-08-22 14:35:25.589 - Action: submit button was pressed
+2022-08-22 14:35:25.591 - Step: app return message that item not found
+2022-08-22 14:35:26.255 - Test ended.
+2022-08-22 14:35:27.796 - Gurock.TestRail.APIException: TestRail API returned HTTP 400 ("No file attached or upload size was exceeded.")
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data)
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data)
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 124
+2022-08-22 14:36:06.909 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 14:36:07.312 - Alert: Price checker button could not be found
+2022-08-22 14:36:07.323 - Alert: Price checker button could not be found
+2022-08-22 14:36:07.334 - Alert: Price checker button could not be found
+2022-08-22 14:36:07.345 - Alert: Price checker button could not be found
+2022-08-22 14:36:07.356 - Alert: Price checker button could not be found
+2022-08-22 14:36:07.372 - Alert: Price checker button could not be found
+2022-08-22 14:36:07.383 - Alert: Price checker button could not be found
+2022-08-22 14:36:07.384 - Alert: Could not load main screen
+2022-08-22 14:36:07.409 - Step: user selects price checker
+2022-08-22 14:36:08.408 - Action: price checker button was pressed
+2022-08-22 14:36:08.412 - Step: Plus button is pressed
+2022-08-22 14:36:09.057 - Action: add button was pressed
+2022-08-22 14:36:09.061 - Step: Product code 1222 is entered and submitted
+2022-08-22 14:36:10.243 - Action: product code was entered - 1222
+2022-08-22 14:36:10.792 - Action: submit button was pressed
+2022-08-22 14:36:10.795 - Step: app return message that item not found
+2022-08-22 14:36:11.416 - Test ended.
+2022-08-22 14:36:12.503 - Gurock.TestRail.APIException: TestRail API returned HTTP 400 ("No file attached or upload size was exceeded.")
+   at Gurock.TestRail.APIClient.SendRequest(String method, String uri, Object data)
+   at Gurock.TestRail.APIClient.SendPost(String uri, Object data)
+   at EasyScanSpecflow.Hooks.ScenarioHooks.AfterScenario() in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\Hooks\ScenarioHooks.cs:line 124
+2022-08-22 14:47:34.555 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 14:47:35.113 - Alert: Price checker button could not be found
+2022-08-22 14:47:35.125 - Alert: Price checker button could not be found
+2022-08-22 14:47:35.137 - Alert: Price checker button could not be found
+2022-08-22 14:47:35.148 - Alert: Price checker button could not be found
+2022-08-22 14:47:35.159 - Alert: Price checker button could not be found
+2022-08-22 14:47:35.174 - Alert: Price checker button could not be found
+2022-08-22 14:47:35.186 - Alert: Price checker button could not be found
+2022-08-22 14:47:35.186 - Alert: Could not load main screen
+2022-08-22 14:47:35.212 - Step: user selects price checker
+2022-08-22 14:47:36.054 - Action: price checker button was pressed
+2022-08-22 14:47:36.059 - Step: Plus button is pressed
+2022-08-22 14:47:36.738 - Action: add button was pressed
+2022-08-22 14:47:36.741 - Step: Product code 1222 is entered and submitted
+2022-08-22 14:47:37.915 - Action: product code was entered - 1222
+2022-08-22 14:47:38.473 - Action: submit button was pressed
+2022-08-22 14:47:38.476 - Step: app return message that item not found
+2022-08-22 14:47:39.139 - Test ended.
+2022-08-22 14:47:44.813 - Alert: Price checker button could not be found
+2022-08-22 14:47:44.969 - Action: back keycode was pressed
+2022-08-22 14:56:34.802 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 14:56:35.226 - Alert: Price checker button could not be found
+2022-08-22 14:56:35.237 - Alert: Price checker button could not be found
+2022-08-22 14:56:35.249 - Alert: Price checker button could not be found
+2022-08-22 14:56:35.260 - Alert: Price checker button could not be found
+2022-08-22 14:56:35.276 - Alert: Price checker button could not be found
+2022-08-22 14:56:35.287 - Alert: Price checker button could not be found
+2022-08-22 14:56:35.299 - Alert: Price checker button could not be found
+2022-08-22 14:56:35.299 - Alert: Could not load main screen
+2022-08-22 14:56:35.325 - Step: user selects price checker
+2022-08-22 14:56:36.337 - Action: price checker button was pressed
+2022-08-22 14:56:36.341 - Step: Plus button is pressed
+2022-08-22 14:56:37.015 - Action: add button was pressed
+2022-08-22 14:56:37.019 - Step: Product code 1222 is entered and submitted
+2022-08-22 14:56:38.213 - Action: product code was entered - 1222
+2022-08-22 14:56:38.785 - Action: submit button was pressed
+2022-08-22 14:56:38.787 - Step: app return message that item not found
+2022-08-22 14:56:39.460 - Test ended.
+2022-08-22 14:56:45.184 - Alert: Price checker button could not be found
+2022-08-22 14:56:45.370 - Action: back keycode was pressed
+2022-08-22 14:56:45.998 - Started test: PriceChecks
+2022-08-22 14:56:46.368 - Step: user selects price checker
+2022-08-22 14:56:46.448 - Action: price checker button was pressed
+2022-08-22 14:56:46.456 - Step: user checks items by barcode and their values match:
+2022-08-22 14:56:47.069 - Action: add button was pressed
+2022-08-22 14:56:48.247 - Action: product code was entered - 1
+2022-08-22 14:56:48.812 - Action: submit button was pressed
+2022-08-22 14:56:49.663 - Action: add button was pressed
+2022-08-22 14:56:50.827 - Action: product code was entered - 2
+2022-08-22 14:56:51.384 - Action: submit button was pressed
+2022-08-22 14:56:52.019 - NUnit.Framework.AssertionException:   Expected string length 19 but was 23. Strings differ at index 0.
+  Expected: "ąčęėįšųūž ĄČĘĖĮŠŲŪŽ"
+  But was:  "Virtos HOT DOG dešrelės"
+  -----------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductShouldBeDisplayed(String expectedProductTitle) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 54
+2022-08-22 14:56:52.022 - Test ended.
+2022-08-22 14:56:58.060 - Alert: Price checker button could not be found
+2022-08-22 14:56:58.197 - Action: back keycode was pressed
+2022-08-22 15:35:17.759 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 15:35:18.173 - Alert: Price checker button could not be found
+2022-08-22 15:35:18.184 - Alert: Price checker button could not be found
+2022-08-22 15:35:18.199 - Alert: Price checker button could not be found
+2022-08-22 15:35:18.210 - Alert: Price checker button could not be found
+2022-08-22 15:35:18.226 - Alert: Price checker button could not be found
+2022-08-22 15:35:18.237 - Alert: Price checker button could not be found
+2022-08-22 15:35:18.249 - Alert: Price checker button could not be found
+2022-08-22 15:35:18.249 - Alert: Could not load main screen
+2022-08-22 15:35:18.275 - Step: user selects price checker
+2022-08-22 15:35:19.507 - Action: price checker button was pressed
+2022-08-22 15:35:19.511 - Step: Plus button is pressed
+2022-08-22 15:35:20.155 - Action: add button was pressed
+2022-08-22 15:35:20.159 - Step: Product code 1222 is entered and submitted
+2022-08-22 15:35:21.337 - Action: product code was entered - 1222
+2022-08-22 15:35:21.906 - Action: submit button was pressed
+2022-08-22 15:35:21.908 - Step: app return message that item not found
+2022-08-22 15:35:22.592 - Test ended.
+2022-08-22 15:35:28.710 - Alert: Price checker button could not be found
+2022-08-22 15:35:28.887 - Action: back keycode was pressed
+2022-08-22 15:35:29.548 - Started test: PriceChecks
+2022-08-22 15:35:29.936 - Step: user selects price checker
+2022-08-22 15:35:30.017 - Action: price checker button was pressed
+2022-08-22 15:35:30.023 - Step: user checks items by barcode and their values match:
+2022-08-22 15:35:30.634 - Action: add button was pressed
+2022-08-22 15:35:31.817 - Action: product code was entered - 1
+2022-08-22 15:35:32.380 - Action: submit button was pressed
+2022-08-22 15:35:33.233 - Action: add button was pressed
+2022-08-22 15:35:34.398 - Action: product code was entered - 2
+2022-08-22 15:35:34.960 - Action: submit button was pressed
+2022-08-22 15:35:35.583 - NUnit.Framework.AssertionException:   Expected string length 19 but was 23. Strings differ at index 0.
+  Expected: "ąčęėįšųūž ĄČĘĖĮŠŲŪŽ"
+  But was:  "Virtos HOT DOG dešrelės"
+  -----------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductShouldBeDisplayed(String expectedProductTitle) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 54
+2022-08-22 15:35:35.586 - Test ended.
+2022-08-22 15:37:52.834 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 15:37:53.257 - Alert: Price checker button could not be found
+2022-08-22 15:37:53.268 - Alert: Price checker button could not be found
+2022-08-22 15:37:53.279 - Alert: Price checker button could not be found
+2022-08-22 15:37:53.290 - Alert: Price checker button could not be found
+2022-08-22 15:37:53.306 - Alert: Price checker button could not be found
+2022-08-22 15:37:53.318 - Alert: Price checker button could not be found
+2022-08-22 15:37:53.329 - Alert: Price checker button could not be found
+2022-08-22 15:37:53.329 - Alert: Could not load main screen
+2022-08-22 15:37:53.355 - Step: user selects price checker
+2022-08-22 15:37:54.378 - Action: price checker button was pressed
+2022-08-22 15:37:54.382 - Step: Plus button is pressed
+2022-08-22 15:37:55.051 - Action: add button was pressed
+2022-08-22 15:37:55.055 - Step: Product code 1222 is entered and submitted
+2022-08-22 15:37:56.264 - Action: product code was entered - 1222
+2022-08-22 15:37:56.817 - Action: submit button was pressed
+2022-08-22 15:37:56.819 - Step: app return message that item not found
+2022-08-22 15:37:57.445 - Test ended.
+2022-08-22 15:38:03.143 - Alert: Price checker button could not be found
+2022-08-22 15:38:03.312 - Action: back keycode was pressed
+2022-08-22 15:38:03.944 - Started test: PriceChecks
+2022-08-22 15:38:04.331 - Step: user selects price checker
+2022-08-22 15:38:04.419 - Action: price checker button was pressed
+2022-08-22 15:38:04.426 - Step: user checks items by barcode and their values match:
+2022-08-22 15:38:05.064 - Action: add button was pressed
+2022-08-22 15:38:06.267 - Action: product code was entered - 1
+2022-08-22 15:38:06.823 - Action: submit button was pressed
+2022-08-22 15:38:07.681 - Action: add button was pressed
+2022-08-22 15:38:08.838 - Action: product code was entered - 5
+2022-08-22 15:38:09.392 - Action: submit button was pressed
+2022-08-22 15:38:10.188 - Test ended.
+2022-08-22 15:38:15.745 - Alert: Price checker button could not be found
+2022-08-22 15:38:15.895 - Action: back keycode was pressed
+2022-08-22 15:40:24.978 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 15:40:25.402 - Alert: Price checker button could not be found
+2022-08-22 15:40:25.413 - Alert: Price checker button could not be found
+2022-08-22 15:40:25.424 - Alert: Price checker button could not be found
+2022-08-22 15:40:25.435 - Alert: Price checker button could not be found
+2022-08-22 15:40:25.450 - Alert: Price checker button could not be found
+2022-08-22 15:40:25.461 - Alert: Price checker button could not be found
+2022-08-22 15:40:25.473 - Alert: Price checker button could not be found
+2022-08-22 15:40:25.473 - Alert: Could not load main screen
+2022-08-22 15:40:25.499 - Step: user selects price checker
+2022-08-22 15:40:26.570 - Action: price checker button was pressed
+2022-08-22 15:40:26.574 - Step: Plus button is pressed
+2022-08-22 15:40:27.257 - Action: add button was pressed
+2022-08-22 15:40:27.261 - Step: Product code 1222 is entered and submitted
+2022-08-22 15:40:28.445 - Action: product code was entered - 1222
+2022-08-22 15:40:29.001 - Action: submit button was pressed
+2022-08-22 15:40:29.004 - Step: app return message that item not found
+2022-08-22 15:40:29.640 - Test ended.
+2022-08-22 15:40:35.516 - Alert: Price checker button could not be found
+2022-08-22 15:40:35.686 - Action: back keycode was pressed
+2022-08-22 15:40:36.321 - Started test: PriceChecks
+2022-08-22 15:40:36.735 - Step: user selects price checker
+2022-08-22 15:40:37.368 - Action: price checker button was pressed
+2022-08-22 15:40:37.376 - Step: user checks items by barcode and their values match:
+2022-08-22 15:40:37.488 - Action: add button was pressed
+2022-08-22 15:40:38.671 - Action: product code was entered - 1
+2022-08-22 15:40:39.226 - Action: submit button was pressed
+2022-08-22 15:40:40.125 - Action: add button was pressed
+2022-08-22 15:40:41.337 - Action: product code was entered - 5
+2022-08-22 15:40:41.894 - Action: submit button was pressed
+2022-08-22 15:40:42.654 - Test ended.
+2022-08-22 15:40:48.585 - Alert: Price checker button could not be found
+2022-08-22 15:40:48.712 - Action: back keycode was pressed
+2022-08-22 15:41:43.900 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 15:41:44.320 - Alert: Price checker button could not be found
+2022-08-22 15:41:44.331 - Alert: Price checker button could not be found
+2022-08-22 15:41:44.343 - Alert: Price checker button could not be found
+2022-08-22 15:41:44.356 - Alert: Price checker button could not be found
+2022-08-22 15:41:44.368 - Alert: Price checker button could not be found
+2022-08-22 15:41:44.384 - Alert: Price checker button could not be found
+2022-08-22 15:41:44.395 - Alert: Price checker button could not be found
+2022-08-22 15:41:44.395 - Alert: Could not load main screen
+2022-08-22 15:41:44.421 - Step: user selects price checker
+2022-08-22 15:41:45.445 - Action: price checker button was pressed
+2022-08-22 15:41:45.449 - Step: Plus button is pressed
+2022-08-22 15:41:46.115 - Action: add button was pressed
+2022-08-22 15:41:46.118 - Step: Product code 1222 is entered and submitted
+2022-08-22 15:41:47.329 - Action: product code was entered - 1222
+2022-08-22 15:41:47.891 - Action: submit button was pressed
+2022-08-22 15:41:47.894 - Step: app return message that item not found
+2022-08-22 15:41:48.514 - Test ended.
+2022-08-22 15:41:54.288 - Alert: Price checker button could not be found
+2022-08-22 15:41:54.465 - Action: back keycode was pressed
+2022-08-22 15:41:55.092 - Started test: PriceChecks
+2022-08-22 15:41:55.454 - Step: user selects price checker
+2022-08-22 15:41:56.106 - Action: price checker button was pressed
+2022-08-22 15:41:56.112 - Step: user checks items by barcode and their values match:
+2022-08-22 15:41:56.196 - Action: add button was pressed
+2022-08-22 15:41:57.380 - Action: product code was entered - 1
+2022-08-22 15:41:57.935 - Action: submit button was pressed
+2022-08-22 15:41:58.846 - Action: add button was pressed
+2022-08-22 15:42:00.051 - Action: product code was entered - 5
+2022-08-22 15:42:00.604 - Action: submit button was pressed
+2022-08-22 15:42:01.338 - NUnit.Framework.AssertionException:   String lengths are both 15. Strings differ at index 13.
+  Expected: "Price:\r\n  1.65€"
+  But was:  "Price:\r\n  1.69€"
+  --------------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductPriceShouldBe(String expectedPrice) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 86
+2022-08-22 15:42:01.341 - Test ended.
+2022-08-22 15:42:07.046 - Alert: Price checker button could not be found
+2022-08-22 15:42:07.195 - Action: back keycode was pressed
+2022-08-22 15:45:19.930 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 15:45:20.354 - Alert: Price checker button could not be found
+2022-08-22 15:45:20.365 - Alert: Price checker button could not be found
+2022-08-22 15:45:20.376 - Alert: Price checker button could not be found
+2022-08-22 15:45:20.386 - Alert: Price checker button could not be found
+2022-08-22 15:45:20.401 - Alert: Price checker button could not be found
+2022-08-22 15:45:20.412 - Alert: Price checker button could not be found
+2022-08-22 15:45:20.423 - Alert: Price checker button could not be found
+2022-08-22 15:45:20.423 - Alert: Could not load main screen
+2022-08-22 15:45:20.452 - Step: user selects price checker
+2022-08-22 15:45:21.875 - Action: price checker button was pressed
+2022-08-22 15:45:21.879 - Step: Plus button is pressed
+2022-08-22 15:45:22.520 - Action: add button was pressed
+2022-08-22 15:45:22.525 - Step: Product code 1222 is entered and submitted
+2022-08-22 15:45:23.696 - Action: product code was entered - 1222
+2022-08-22 15:45:24.247 - Action: submit button was pressed
+2022-08-22 15:45:24.249 - Step: app return message that item not found
+2022-08-22 15:45:24.878 - Test ended.
+2022-08-22 15:45:33.819 - Alert: Price checker button could not be found
+2022-08-22 15:45:33.992 - Action: back keycode was pressed
+2022-08-22 15:45:34.627 - Started test: PriceChecks
+2022-08-22 15:45:34.970 - Step: user selects price checker
+2022-08-22 15:45:35.051 - Action: price checker button was pressed
+2022-08-22 15:45:35.057 - Step: user checks items by barcode and their values match:
+2022-08-22 15:45:35.697 - Action: add button was pressed
+2022-08-22 15:45:36.409 - Action: product code was entered - 1
+2022-08-22 15:45:36.974 - Action: submit button was pressed
+2022-08-22 15:45:37.848 - Action: add button was pressed
+2022-08-22 15:45:39.057 - Action: product code was entered - 5
+2022-08-22 15:45:39.607 - Action: submit button was pressed
+2022-08-22 15:45:40.378 - NUnit.Framework.AssertionException:   String lengths are both 15. Strings differ at index 13.
+  Expected: "Price:\r\n  1.65€"
+  But was:  "Price:\r\n  1.69€"
+  --------------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductPriceShouldBe(String expectedPrice) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 86
+2022-08-22 15:45:40.381 - Test ended.
+2022-08-22 15:45:48.719 - Alert: Price checker button could not be found
+2022-08-22 15:45:48.884 - Action: back keycode was pressed
+2022-08-22 15:46:31.196 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 15:46:31.609 - Alert: Price checker button could not be found
+2022-08-22 15:46:31.620 - Alert: Price checker button could not be found
+2022-08-22 15:46:31.632 - Alert: Price checker button could not be found
+2022-08-22 15:46:31.643 - Alert: Price checker button could not be found
+2022-08-22 15:46:31.657 - Alert: Price checker button could not be found
+2022-08-22 15:46:31.669 - Alert: Price checker button could not be found
+2022-08-22 15:46:31.679 - Alert: Price checker button could not be found
+2022-08-22 15:46:31.680 - Alert: Could not load main screen
+2022-08-22 15:46:31.704 - Step: user selects price checker
+2022-08-22 15:46:33.249 - Action: price checker button was pressed
+2022-08-22 15:46:33.254 - Step: Plus button is pressed
+2022-08-22 15:46:33.914 - Action: add button was pressed
+2022-08-22 15:46:33.918 - Step: Product code 1222 is entered and submitted
+2022-08-22 15:46:35.086 - Action: product code was entered - 1222
+2022-08-22 15:46:35.648 - Action: submit button was pressed
+2022-08-22 15:46:35.650 - Step: app return message that item not found
+2022-08-22 15:46:36.293 - Test ended.
+2022-08-22 15:46:45.295 - Alert: Price checker button could not be found
+2022-08-22 15:46:45.471 - Action: back keycode was pressed
+2022-08-22 15:46:46.097 - Started test: PriceChecks
+2022-08-22 15:46:46.474 - Step: user selects price checker
+2022-08-22 15:46:46.556 - Action: price checker button was pressed
+2022-08-22 15:46:46.562 - Step: user checks items by barcode and their values match:
+2022-08-22 15:46:47.202 - Action: add button was pressed
+2022-08-22 15:46:48.405 - Action: product code was entered - 1
+2022-08-22 15:46:48.960 - Action: submit button was pressed
+2022-08-22 15:46:49.819 - Action: add button was pressed
+2022-08-22 15:46:50.993 - Action: product code was entered - 5
+2022-08-22 15:46:51.543 - Action: submit button was pressed
+2022-08-22 15:46:52.247 - NUnit.Framework.AssertionException:   String lengths are both 15. Strings differ at index 13.
+  Expected: "Price:\r\n  1.65€"
+  But was:  "Price:\r\n  1.69€"
+  --------------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductPriceShouldBe(String expectedPrice) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 86
+2022-08-22 15:46:52.251 - Test ended.
+2022-08-22 15:47:00.770 - Alert: Price checker button could not be found
+2022-08-22 15:47:00.927 - Action: back keycode was pressed
+2022-08-22 15:48:51.419 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 15:48:51.836 - Alert: Price checker button could not be found
+2022-08-22 15:48:51.847 - Alert: Price checker button could not be found
+2022-08-22 15:48:51.859 - Alert: Price checker button could not be found
+2022-08-22 15:48:51.870 - Alert: Price checker button could not be found
+2022-08-22 15:48:51.885 - Alert: Price checker button could not be found
+2022-08-22 15:48:51.896 - Alert: Price checker button could not be found
+2022-08-22 15:48:51.907 - Alert: Price checker button could not be found
+2022-08-22 15:48:51.907 - Alert: Could not load main screen
+2022-08-22 15:48:51.933 - Step: user selects price checker
+2022-08-22 15:48:52.939 - Action: price checker button was pressed
+2022-08-22 15:48:52.944 - Step: Plus button is pressed
+2022-08-22 15:48:53.626 - Action: add button was pressed
+2022-08-22 15:48:53.630 - Step: Product code 1222 is entered and submitted
+2022-08-22 15:48:54.855 - Action: product code was entered - 1222
+2022-08-22 15:48:55.405 - Action: submit button was pressed
+2022-08-22 15:48:55.407 - Step: app return message that item not found
+2022-08-22 15:48:56.029 - Test ended.
+2022-08-22 15:49:04.727 - Alert: Price checker button could not be found
+2022-08-22 15:49:04.894 - Action: back keycode was pressed
+2022-08-22 15:49:05.524 - Started test: PriceChecks
+2022-08-22 15:49:05.866 - Step: user selects price checker
+2022-08-22 15:49:06.489 - Action: price checker button was pressed
+2022-08-22 15:49:06.496 - Step: user checks items by barcode and their values match:
+2022-08-22 15:49:06.588 - Action: add button was pressed
+2022-08-22 15:49:07.808 - Action: product code was entered - 1
+2022-08-22 15:49:08.364 - Action: submit button was pressed
+2022-08-22 15:49:09.239 - Action: add button was pressed
+2022-08-22 15:49:10.453 - Action: product code was entered - 5
+2022-08-22 15:49:11.015 - Action: submit button was pressed
+2022-08-22 15:49:11.822 - Test ended.
+2022-08-22 15:49:20.190 - Alert: Price checker button could not be found
+2022-08-22 15:49:20.342 - Action: back keycode was pressed
+2022-08-22 15:52:10.314 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 15:52:10.718 - Alert: Price checker button could not be found
+2022-08-22 15:52:10.730 - Alert: Price checker button could not be found
+2022-08-22 15:52:10.742 - Alert: Price checker button could not be found
+2022-08-22 15:52:10.753 - Alert: Price checker button could not be found
+2022-08-22 15:52:10.764 - Alert: Price checker button could not be found
+2022-08-22 15:52:10.781 - Alert: Price checker button could not be found
+2022-08-22 15:52:10.791 - Alert: Price checker button could not be found
+2022-08-22 15:52:10.791 - Alert: Could not load main screen
+2022-08-22 15:52:10.817 - Step: user selects price checker
+2022-08-22 15:52:11.825 - Action: price checker button was pressed
+2022-08-22 15:52:11.830 - Step: Plus button is pressed
+2022-08-22 15:52:12.481 - Action: add button was pressed
+2022-08-22 15:52:12.484 - Step: Product code 1222 is entered and submitted
+2022-08-22 15:52:13.702 - Action: product code was entered - 1222
+2022-08-22 15:52:14.265 - Action: submit button was pressed
+2022-08-22 15:52:14.268 - Step: app return message that item not found
+2022-08-22 15:52:14.889 - Test ended.
+2022-08-22 15:52:22.739 - Alert: Price checker button could not be found
+2022-08-22 15:52:22.917 - Action: back keycode was pressed
+2022-08-22 15:52:23.547 - Started test: PriceChecks
+2022-08-22 15:52:23.919 - Step: user selects price checker
+2022-08-22 15:52:23.998 - Action: price checker button was pressed
+2022-08-22 15:52:24.003 - Step: user checks items by barcode and their values match:
+2022-08-22 15:52:24.658 - Action: add button was pressed
+2022-08-22 15:52:25.839 - Action: product code was entered - 1
+2022-08-22 15:52:26.406 - Action: submit button was pressed
+2022-08-22 15:52:27.313 - Action: add button was pressed
+2022-08-22 15:52:28.532 - Action: product code was entered - 5
+2022-08-22 15:52:29.091 - Action: submit button was pressed
+2022-08-22 15:52:29.919 - Test ended.
+2022-08-22 15:52:37.580 - Alert: Price checker button could not be found
+2022-08-22 15:52:37.750 - Action: back keycode was pressed
+2022-08-22 15:54:30.720 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 15:54:31.234 - Alert: Price checker button could not be found
+2022-08-22 15:54:31.320 - Alert: Price checker button could not be found
+2022-08-22 15:54:31.397 - Alert: Price checker button could not be found
+2022-08-22 15:54:31.479 - Alert: Price checker button could not be found
+2022-08-22 15:54:31.558 - Alert: Price checker button could not be found
+2022-08-22 15:54:31.661 - Alert: Price checker button could not be found
+2022-08-22 15:54:31.767 - Alert: Price checker button could not be found
+2022-08-22 15:54:31.767 - Alert: Could not load main screen
+2022-08-22 15:54:31.793 - Step: user selects price checker
+2022-08-22 15:54:36.423 - Action: price checker button was pressed
+2022-08-22 15:54:36.428 - Step: Plus button is pressed
+2022-08-22 15:54:37.056 - Action: add button was pressed
+2022-08-22 15:54:37.059 - Step: Product code 1222 is entered and submitted
+2022-08-22 15:54:38.213 - Action: product code was entered - 1222
+2022-08-22 15:54:38.766 - Action: submit button was pressed
+2022-08-22 15:54:38.769 - Step: app return message that item not found
+2022-08-22 15:54:39.373 - Test ended.
+2022-08-22 15:54:45.189 - Alert: Price checker button could not be found
+2022-08-22 15:54:45.335 - Action: back keycode was pressed
+2022-08-22 15:54:45.958 - Started test: PriceChecks
+2022-08-22 15:54:46.749 - Step: user selects price checker
+2022-08-22 15:54:46.822 - Action: price checker button was pressed
+2022-08-22 15:54:46.828 - Step: user checks items by barcode and their values match:
+2022-08-22 15:54:47.435 - Action: add button was pressed
+2022-08-22 15:54:48.598 - Action: product code was entered - 1
+2022-08-22 15:54:49.161 - Action: submit button was pressed
+2022-08-22 15:54:50.002 - Action: add button was pressed
+2022-08-22 15:54:51.156 - Action: product code was entered - 5
+2022-08-22 15:54:51.719 - Action: submit button was pressed
+2022-08-22 15:54:52.457 - Test ended.
+2022-08-22 15:54:58.058 - Alert: Price checker button could not be found
+2022-08-22 15:54:58.198 - Action: back keycode was pressed
+2022-08-22 15:55:36.197 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 15:55:36.612 - Alert: Price checker button could not be found
+2022-08-22 15:55:36.622 - Alert: Price checker button could not be found
+2022-08-22 15:55:36.634 - Alert: Price checker button could not be found
+2022-08-22 15:55:36.644 - Alert: Price checker button could not be found
+2022-08-22 15:55:36.656 - Alert: Price checker button could not be found
+2022-08-22 15:55:36.672 - Alert: Price checker button could not be found
+2022-08-22 15:55:36.683 - Alert: Price checker button could not be found
+2022-08-22 15:55:36.683 - Alert: Could not load main screen
+2022-08-22 15:55:36.710 - Step: user selects price checker
+2022-08-22 15:55:37.728 - Action: price checker button was pressed
+2022-08-22 15:55:37.732 - Step: Plus button is pressed
+2022-08-22 15:55:38.395 - Action: add button was pressed
+2022-08-22 15:55:38.400 - Step: Product code 1222 is entered and submitted
+2022-08-22 15:55:39.614 - Action: product code was entered - 1222
+2022-08-22 15:55:40.180 - Action: submit button was pressed
+2022-08-22 15:55:40.182 - Step: app return message that item not found
+2022-08-22 15:55:40.805 - Test ended.
+2022-08-22 15:55:46.688 - Alert: Price checker button could not be found
+2022-08-22 15:55:46.870 - Action: back keycode was pressed
+2022-08-22 15:55:47.488 - Started test: PriceChecks
+2022-08-22 15:55:48.229 - Step: user selects price checker
+2022-08-22 15:55:48.315 - Action: price checker button was pressed
+2022-08-22 15:55:48.322 - Step: user checks items by barcode and their values match:
+2022-08-22 15:55:48.979 - Action: add button was pressed
+2022-08-22 15:55:50.171 - Action: product code was entered - 1
+2022-08-22 15:55:50.732 - Action: submit button was pressed
+2022-08-22 15:55:51.580 - Action: add button was pressed
+2022-08-22 15:55:52.743 - Action: product code was entered - 5
+2022-08-22 15:55:53.308 - Action: submit button was pressed
+2022-08-22 15:55:54.034 - NUnit.Framework.AssertionException:   String lengths are both 15. Strings differ at index 13.
+  Expected: "Price:\r\n  1.65€"
+  But was:  "Price:\r\n  1.69€"
+  --------------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductPriceShouldBe(String expectedPrice) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 86
+2022-08-22 15:55:54.037 - Test ended.
+2022-08-22 15:55:59.658 - Alert: Price checker button could not be found
+2022-08-22 15:55:59.818 - Action: back keycode was pressed
+2022-08-22 16:02:03.945 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 16:02:04.477 - Alert: Price checker button could not be found
+2022-08-22 16:02:04.488 - Alert: Price checker button could not be found
+2022-08-22 16:02:04.499 - Alert: Price checker button could not be found
+2022-08-22 16:02:04.510 - Alert: Price checker button could not be found
+2022-08-22 16:02:04.525 - Alert: Price checker button could not be found
+2022-08-22 16:02:04.537 - Alert: Price checker button could not be found
+2022-08-22 16:02:04.548 - Alert: Price checker button could not be found
+2022-08-22 16:02:04.548 - Alert: Could not load main screen
+2022-08-22 16:02:04.574 - Step: user selects price checker
+2022-08-22 16:02:05.471 - Action: price checker button was pressed
+2022-08-22 16:02:05.475 - Step: Plus button is pressed
+2022-08-22 16:02:06.149 - Action: add button was pressed
+2022-08-22 16:02:06.154 - Step: Product code 1222 is entered and submitted
+2022-08-22 16:02:07.367 - Action: product code was entered - 1222
+2022-08-22 16:02:07.926 - Action: submit button was pressed
+2022-08-22 16:02:07.929 - Step: app return message that item not found
+2022-08-22 16:02:08.595 - Test ended.
+2022-08-22 16:02:14.453 - Alert: Price checker button could not be found
+2022-08-22 16:02:14.626 - Action: back keycode was pressed
+2022-08-22 16:02:15.258 - Started test: PriceChecks
+2022-08-22 16:02:15.603 - Step: user selects price checker
+2022-08-22 16:02:15.666 - Action: price checker button was pressed
+2022-08-22 16:02:15.673 - Step: user checks items by barcode and their values match:
+2022-08-22 16:02:16.339 - Action: add button was pressed
+2022-08-22 16:02:17.553 - Action: product code was entered - 1
+2022-08-22 16:02:18.109 - Action: submit button was pressed
+2022-08-22 16:02:19.017 - Action: add button was pressed
+2022-08-22 16:02:20.231 - Action: product code was entered - 5
+2022-08-22 16:02:20.794 - Action: submit button was pressed
+2022-08-22 16:02:21.620 - Test ended.
+2022-08-22 16:02:35.341 - Alert: Price checker button could not be found
+2022-08-22 16:02:35.464 - Action: back keycode was pressed
+2022-08-22 16:05:20.875 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 16:05:21.295 - Alert: Price checker button could not be found
+2022-08-22 16:05:21.308 - Alert: Price checker button could not be found
+2022-08-22 16:05:21.320 - Alert: Price checker button could not be found
+2022-08-22 16:05:21.331 - Alert: Price checker button could not be found
+2022-08-22 16:05:21.346 - Alert: Price checker button could not be found
+2022-08-22 16:05:21.357 - Alert: Price checker button could not be found
+2022-08-22 16:05:21.368 - Alert: Price checker button could not be found
+2022-08-22 16:05:21.369 - Alert: Could not load main screen
+2022-08-22 16:05:21.395 - Step: user selects price checker
+2022-08-22 16:05:22.423 - Action: price checker button was pressed
+2022-08-22 16:05:22.429 - Step: Plus button is pressed
+2022-08-22 16:05:23.095 - Action: add button was pressed
+2022-08-22 16:05:23.099 - Step: Product code 1222 is entered and submitted
+2022-08-22 16:05:24.268 - Action: product code was entered - 1222
+2022-08-22 16:05:24.829 - Action: submit button was pressed
+2022-08-22 16:05:24.831 - Step: app return message that item not found
+2022-08-22 16:05:25.458 - Test ended.
+2022-08-22 16:05:31.530 - Alert: Price checker button could not be found
+2022-08-22 16:05:31.711 - Action: back keycode was pressed
+2022-08-22 16:05:32.304 - Started test: PriceChecks
+2022-08-22 16:05:32.690 - Step: user selects price checker
+2022-08-22 16:05:33.330 - Action: price checker button was pressed
+2022-08-22 16:05:33.336 - Step: user checks items by barcode and their values match:
+2022-08-22 16:05:33.392 - Action: add button was pressed
+2022-08-22 16:05:34.617 - Action: product code was entered - 1
+2022-08-22 16:05:35.173 - Action: submit button was pressed
+2022-08-22 16:05:36.032 - Action: add button was pressed
+2022-08-22 16:05:37.204 - Action: product code was entered - 5
+2022-08-22 16:05:37.767 - Action: submit button was pressed
+2022-08-22 16:05:38.508 - NUnit.Framework.AssertionException:   String lengths are both 15. Strings differ at index 13.
+  Expected: "Price:\r\n  1.65€"
+  But was:  "Price:\r\n  1.69€"
+  --------------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductPriceShouldBe(String expectedPrice) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 86
+2022-08-22 16:05:38.510 - Test ended.
+2022-08-22 16:05:46.052 - Alert: Price checker button could not be found
+2022-08-22 16:05:46.205 - Action: back keycode was pressed
+2022-08-22 16:08:30.511 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 16:08:30.921 - Alert: Price checker button could not be found
+2022-08-22 16:08:30.932 - Alert: Price checker button could not be found
+2022-08-22 16:08:30.944 - Alert: Price checker button could not be found
+2022-08-22 16:08:30.956 - Alert: Price checker button could not be found
+2022-08-22 16:08:30.973 - Alert: Price checker button could not be found
+2022-08-22 16:08:30.984 - Alert: Price checker button could not be found
+2022-08-22 16:08:30.995 - Alert: Price checker button could not be found
+2022-08-22 16:08:30.996 - Alert: Could not load main screen
+2022-08-22 16:08:31.021 - Step: user selects price checker
+2022-08-22 16:08:32.041 - Action: price checker button was pressed
+2022-08-22 16:08:32.045 - Step: Plus button is pressed
+2022-08-22 16:08:32.736 - Action: add button was pressed
+2022-08-22 16:08:32.741 - Step: Product code 1222 is entered and submitted
+2022-08-22 16:08:33.952 - Action: product code was entered - 1222
+2022-08-22 16:08:34.512 - Action: submit button was pressed
+2022-08-22 16:08:34.514 - Step: app return message that item not found
+2022-08-22 16:08:35.143 - Test ended.
+2022-08-22 16:08:40.829 - Alert: Price checker button could not be found
+2022-08-22 16:08:41.005 - Action: back keycode was pressed
+2022-08-22 16:08:41.615 - Started test: PriceChecks
+2022-08-22 16:08:42.017 - Step: user selects price checker
+2022-08-22 16:08:42.075 - Action: price checker button was pressed
+2022-08-22 16:08:42.085 - Step: user checks items by barcode and their values match:
+2022-08-22 16:08:42.715 - Action: add button was pressed
+2022-08-22 16:08:43.921 - Action: product code was entered - 1
+2022-08-22 16:08:44.483 - Action: submit button was pressed
+2022-08-22 16:08:45.366 - Action: add button was pressed
+2022-08-22 16:08:46.577 - Action: product code was entered - 5
+2022-08-22 16:08:47.143 - Action: submit button was pressed
+2022-08-22 16:08:47.953 - Test ended.
+2022-08-22 16:08:53.610 - Alert: Price checker button could not be found
+2022-08-22 16:08:53.749 - Action: back keycode was pressed
+2022-08-22 16:09:37.426 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 16:09:37.844 - Alert: Price checker button could not be found
+2022-08-22 16:09:37.856 - Alert: Price checker button could not be found
+2022-08-22 16:09:37.869 - Alert: Price checker button could not be found
+2022-08-22 16:09:37.880 - Alert: Price checker button could not be found
+2022-08-22 16:09:37.896 - Alert: Price checker button could not be found
+2022-08-22 16:09:37.907 - Alert: Price checker button could not be found
+2022-08-22 16:09:37.919 - Alert: Price checker button could not be found
+2022-08-22 16:09:37.919 - Alert: Could not load main screen
+2022-08-22 16:09:37.945 - Step: user selects price checker
+2022-08-22 16:09:38.960 - Action: price checker button was pressed
+2022-08-22 16:09:38.964 - Step: Plus button is pressed
+2022-08-22 16:09:39.614 - Action: add button was pressed
+2022-08-22 16:09:39.619 - Step: Product code 1222 is entered and submitted
+2022-08-22 16:09:40.826 - Action: product code was entered - 1222
+2022-08-22 16:09:41.384 - Action: submit button was pressed
+2022-08-22 16:09:41.387 - Step: app return message that item not found
+2022-08-22 16:09:42.004 - Test ended.
+2022-08-22 16:09:47.873 - Alert: Price checker button could not be found
+2022-08-22 16:09:48.051 - Action: back keycode was pressed
+2022-08-22 16:09:48.683 - Started test: PriceChecks
+2022-08-22 16:09:49.053 - Step: user selects price checker
+2022-08-22 16:09:49.127 - Action: price checker button was pressed
+2022-08-22 16:09:49.133 - Step: user checks items by barcode and their values match:
+2022-08-22 16:09:49.761 - Action: add button was pressed
+2022-08-22 16:09:50.932 - Action: product code was entered - 1
+2022-08-22 16:09:51.488 - Action: submit button was pressed
+2022-08-22 16:09:52.354 - Action: add button was pressed
+2022-08-22 16:09:53.509 - Action: product code was entered - 5
+2022-08-22 16:09:54.057 - Action: submit button was pressed
+2022-08-22 16:09:54.791 - NUnit.Framework.AssertionException:   String lengths are both 15. Strings differ at index 13.
+  Expected: "Price:\r\n  1.65€"
+  But was:  "Price:\r\n  1.69€"
+  --------------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductPriceShouldBe(String expectedPrice) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 86
+2022-08-22 16:09:54.794 - Test ended.
+2022-08-22 16:10:00.582 - Alert: Price checker button could not be found
+2022-08-22 16:10:00.722 - Action: back keycode was pressed
+2022-08-22 16:10:56.800 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 16:10:57.197 - Alert: Price checker button could not be found
+2022-08-22 16:10:57.208 - Alert: Price checker button could not be found
+2022-08-22 16:10:57.219 - Alert: Price checker button could not be found
+2022-08-22 16:10:57.231 - Alert: Price checker button could not be found
+2022-08-22 16:10:57.247 - Alert: Price checker button could not be found
+2022-08-22 16:10:57.258 - Alert: Price checker button could not be found
+2022-08-22 16:10:57.270 - Alert: Price checker button could not be found
+2022-08-22 16:10:57.270 - Alert: Could not load main screen
+2022-08-22 16:10:57.295 - Step: user selects price checker
+2022-08-22 16:10:58.306 - Action: price checker button was pressed
+2022-08-22 16:10:58.310 - Step: Plus button is pressed
+2022-08-22 16:10:58.958 - Action: add button was pressed
+2022-08-22 16:10:58.963 - Step: Product code 1222 is entered and submitted
+2022-08-22 16:11:00.186 - Action: product code was entered - 1222
+2022-08-22 16:11:00.736 - Action: submit button was pressed
+2022-08-22 16:11:00.738 - Step: app return message that item not found
+2022-08-22 16:11:01.333 - Test ended.
+2022-08-22 16:11:17.540 - Alert: Price checker button could not be found
+2022-08-22 16:11:17.723 - Action: back keycode was pressed
+2022-08-22 16:11:18.357 - Started test: PriceChecks
+2022-08-22 16:11:18.791 - Step: user selects price checker
+2022-08-22 16:11:18.881 - Action: price checker button was pressed
+2022-08-22 16:11:18.888 - Step: user checks items by barcode and their values match:
+2022-08-22 16:11:19.536 - Action: add button was pressed
+2022-08-22 16:11:20.736 - Action: product code was entered - 1
+2022-08-22 16:11:21.281 - Action: submit button was pressed
+2022-08-22 16:11:22.009 - Action: add button was pressed
+2022-08-22 16:11:23.171 - Action: product code was entered - 5
+2022-08-22 16:11:23.730 - Action: submit button was pressed
+2022-08-22 16:11:24.500 - Test ended.
+2022-08-22 16:11:30.058 - Alert: Price checker button could not be found
+2022-08-22 16:11:30.198 - Action: back keycode was pressed
+2022-08-22 16:12:30.317 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 16:12:30.735 - Alert: Price checker button could not be found
+2022-08-22 16:12:30.747 - Alert: Price checker button could not be found
+2022-08-22 16:12:30.758 - Alert: Price checker button could not be found
+2022-08-22 16:12:30.769 - Alert: Price checker button could not be found
+2022-08-22 16:12:30.785 - Alert: Price checker button could not be found
+2022-08-22 16:12:30.796 - Alert: Price checker button could not be found
+2022-08-22 16:12:30.807 - Alert: Price checker button could not be found
+2022-08-22 16:12:30.808 - Alert: Could not load main screen
+2022-08-22 16:12:30.834 - Step: user selects price checker
+2022-08-22 16:12:31.831 - Action: price checker button was pressed
+2022-08-22 16:12:31.835 - Step: Plus button is pressed
+2022-08-22 16:12:32.494 - Action: add button was pressed
+2022-08-22 16:12:32.499 - Step: Product code 1222 is entered and submitted
+2022-08-22 16:12:33.207 - Action: product code was entered - 1222
+2022-08-22 16:12:33.762 - Action: submit button was pressed
+2022-08-22 16:12:33.765 - Step: app return message that item not found
+2022-08-22 16:12:34.372 - Test ended.
+2022-08-22 16:12:40.033 - Alert: Price checker button could not be found
+2022-08-22 16:12:40.191 - Action: back keycode was pressed
+2022-08-22 16:12:40.811 - Started test: PriceChecks
+2022-08-22 16:12:41.177 - Step: user selects price checker
+2022-08-22 16:12:41.816 - Action: price checker button was pressed
+2022-08-22 16:12:41.822 - Step: user checks items by barcode and their values match:
+2022-08-22 16:12:41.905 - Action: add button was pressed
+2022-08-22 16:12:43.078 - Action: product code was entered - 1
+2022-08-22 16:12:43.634 - Action: submit button was pressed
+2022-08-22 16:12:44.489 - Action: add button was pressed
+2022-08-22 16:12:45.673 - Action: product code was entered - 5
+2022-08-22 16:12:46.239 - Action: submit button was pressed
+2022-08-22 16:12:46.957 - NUnit.Framework.AssertionException:   String lengths are both 15. Strings differ at index 13.
+  Expected: "Price:\r\n  1.65€"
+  But was:  "Price:\r\n  1.69€"
+  --------------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductPriceShouldBe(String expectedPrice) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 86
+2022-08-22 16:12:46.960 - Test ended.
+2022-08-22 16:12:52.700 - Alert: Price checker button could not be found
+2022-08-22 16:12:52.839 - Action: back keycode was pressed
+2022-08-22 16:15:10.670 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 16:15:11.077 - Alert: Price checker button could not be found
+2022-08-22 16:15:11.088 - Alert: Price checker button could not be found
+2022-08-22 16:15:11.100 - Alert: Price checker button could not be found
+2022-08-22 16:15:11.111 - Alert: Price checker button could not be found
+2022-08-22 16:15:11.127 - Alert: Price checker button could not be found
+2022-08-22 16:15:11.139 - Alert: Price checker button could not be found
+2022-08-22 16:15:11.150 - Alert: Price checker button could not be found
+2022-08-22 16:15:11.150 - Alert: Could not load main screen
+2022-08-22 16:15:11.177 - Step: user selects price checker
+2022-08-22 16:15:12.194 - Action: price checker button was pressed
+2022-08-22 16:15:12.198 - Step: Plus button is pressed
+2022-08-22 16:15:12.867 - Action: add button was pressed
+2022-08-22 16:15:12.871 - Step: Product code 1222 is entered and submitted
+2022-08-22 16:15:14.097 - Action: product code was entered - 1222
+2022-08-22 16:15:14.667 - Action: submit button was pressed
+2022-08-22 16:15:14.669 - Step: app return message that item not found
+2022-08-22 16:15:15.279 - Test ended.
+2022-08-22 16:15:21.321 - Alert: Price checker button could not be found
+2022-08-22 16:15:21.510 - Action: back keycode was pressed
+2022-08-22 16:15:22.128 - Started test: PriceChecks
+2022-08-22 16:15:22.553 - Step: user selects price checker
+2022-08-22 16:15:23.157 - Action: price checker button was pressed
+2022-08-22 16:15:23.165 - Step: user checks items by barcode and their values match:
+2022-08-22 16:15:23.804 - Action: add button was pressed
+2022-08-22 16:15:24.965 - Action: product code was entered - 1
+2022-08-22 16:15:25.522 - Action: submit button was pressed
+2022-08-22 16:15:26.387 - Action: add button was pressed
+2022-08-22 16:15:27.562 - Action: product code was entered - 5
+2022-08-22 16:15:28.123 - Action: submit button was pressed
+2022-08-22 16:15:28.938 - Test ended.
+2022-08-22 16:15:34.963 - Alert: Price checker button could not be found
+2022-08-22 16:15:35.100 - Action: back keycode was pressed
+2022-08-22 16:22:07.845 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 16:22:08.252 - Alert: Price checker button could not be found
+2022-08-22 16:22:08.263 - Alert: Price checker button could not be found
+2022-08-22 16:22:08.277 - Alert: Price checker button could not be found
+2022-08-22 16:22:08.289 - Alert: Price checker button could not be found
+2022-08-22 16:22:08.305 - Alert: Price checker button could not be found
+2022-08-22 16:22:08.316 - Alert: Price checker button could not be found
+2022-08-22 16:22:08.327 - Alert: Price checker button could not be found
+2022-08-22 16:22:08.327 - Alert: Could not load main screen
+2022-08-22 16:22:08.353 - Step: user selects price checker
+2022-08-22 16:22:09.341 - Action: price checker button was pressed
+2022-08-22 16:22:09.346 - Step: Plus button is pressed
+2022-08-22 16:22:09.999 - Action: add button was pressed
+2022-08-22 16:22:10.003 - Step: Product code 1222 is entered and submitted
+2022-08-22 16:22:11.212 - Action: product code was entered - 1222
+2022-08-22 16:22:11.767 - Action: submit button was pressed
+2022-08-22 16:22:11.771 - Step: app return message that item not found
+2022-08-22 16:22:12.398 - Test ended.
+2022-08-22 16:22:18.060 - Alert: Price checker button could not be found
+2022-08-22 16:22:18.242 - Action: back keycode was pressed
+2022-08-22 16:22:18.872 - Started test: PriceChecks
+2022-08-22 16:22:19.234 - Step: user selects price checker
+2022-08-22 16:22:19.317 - Action: price checker button was pressed
+2022-08-22 16:22:19.323 - Step: user checks items by barcode and their values match:
+2022-08-22 16:22:19.972 - Action: add button was pressed
+2022-08-22 16:22:21.170 - Action: product code was entered - 1
+2022-08-22 16:22:21.741 - Action: submit button was pressed
+2022-08-22 16:22:22.607 - Action: add button was pressed
+2022-08-22 16:22:23.762 - Action: product code was entered - 5
+2022-08-22 16:22:24.328 - Action: submit button was pressed
+2022-08-22 16:22:25.067 - NUnit.Framework.AssertionException:   String lengths are both 15. Strings differ at index 13.
+  Expected: "Price:\r\n  1.65€"
+  But was:  "Price:\r\n  1.69€"
+  --------------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductPriceShouldBe(String expectedPrice) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 86
+2022-08-22 16:22:25.070 - Test ended.
+2022-08-22 16:22:30.953 - Alert: Price checker button could not be found
+2022-08-22 16:22:31.091 - Action: back keycode was pressed
+2022-08-22 16:23:40.567 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 16:23:40.978 - Alert: Price checker button could not be found
+2022-08-22 16:23:40.990 - Alert: Price checker button could not be found
+2022-08-22 16:23:41.001 - Alert: Price checker button could not be found
+2022-08-22 16:23:41.012 - Alert: Price checker button could not be found
+2022-08-22 16:23:41.028 - Alert: Price checker button could not be found
+2022-08-22 16:23:41.038 - Alert: Price checker button could not be found
+2022-08-22 16:23:41.050 - Alert: Price checker button could not be found
+2022-08-22 16:23:41.050 - Alert: Could not load main screen
+2022-08-22 16:23:41.078 - Step: user selects price checker
+2022-08-22 16:23:42.096 - Action: price checker button was pressed
+2022-08-22 16:23:42.101 - Step: Plus button is pressed
+2022-08-22 16:23:42.771 - Action: add button was pressed
+2022-08-22 16:23:42.775 - Step: Product code 1222 is entered and submitted
+2022-08-22 16:23:43.987 - Action: product code was entered - 1222
+2022-08-22 16:23:44.554 - Action: submit button was pressed
+2022-08-22 16:23:44.557 - Step: app return message that item not found
+2022-08-22 16:23:45.166 - Test ended.
+2022-08-22 16:23:51.302 - Alert: Price checker button could not be found
+2022-08-22 16:23:51.464 - Action: back keycode was pressed
+2022-08-22 16:23:52.105 - Started test: PriceChecks
+2022-08-22 16:23:52.467 - Step: user selects price checker
+2022-08-22 16:23:52.562 - Action: price checker button was pressed
+2022-08-22 16:23:52.568 - Step: user checks items by barcode and their values match:
+2022-08-22 16:23:53.209 - Action: add button was pressed
+2022-08-22 16:23:54.403 - Action: product code was entered - 1
+2022-08-22 16:23:54.961 - Action: submit button was pressed
+2022-08-22 16:23:55.801 - Action: add button was pressed
+2022-08-22 16:23:56.954 - Action: product code was entered - 5
+2022-08-22 16:23:57.511 - Action: submit button was pressed
+2022-08-22 16:23:58.291 - Test ended.
+2022-08-22 16:24:03.933 - Alert: Price checker button could not be found
+2022-08-22 16:24:04.053 - Action: back keycode was pressed
+2022-08-22 16:25:11.303 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 16:25:11.720 - Alert: Price checker button could not be found
+2022-08-22 16:25:11.732 - Alert: Price checker button could not be found
+2022-08-22 16:25:11.745 - Alert: Price checker button could not be found
+2022-08-22 16:25:11.756 - Alert: Price checker button could not be found
+2022-08-22 16:25:11.772 - Alert: Price checker button could not be found
+2022-08-22 16:25:11.783 - Alert: Price checker button could not be found
+2022-08-22 16:25:11.794 - Alert: Price checker button could not be found
+2022-08-22 16:25:11.794 - Alert: Could not load main screen
+2022-08-22 16:25:11.820 - Step: user selects price checker
+2022-08-22 16:25:12.844 - Action: price checker button was pressed
+2022-08-22 16:25:12.849 - Step: Plus button is pressed
+2022-08-22 16:25:13.497 - Action: add button was pressed
+2022-08-22 16:25:13.501 - Step: Product code 1222 is entered and submitted
+2022-08-22 16:25:14.713 - Action: product code was entered - 1222
+2022-08-22 16:25:15.273 - Action: submit button was pressed
+2022-08-22 16:25:15.276 - Step: app return message that item not found
+2022-08-22 16:25:15.902 - Test ended.
+2022-08-22 16:25:23.067 - Alert: Price checker button could not be found
+2022-08-22 16:25:23.246 - Action: back keycode was pressed
+2022-08-22 16:25:23.873 - Started test: PriceChecks
+2022-08-22 16:25:24.257 - Step: user selects price checker
+2022-08-22 16:25:24.349 - Action: price checker button was pressed
+2022-08-22 16:25:24.355 - Step: user checks items by barcode and their values match:
+2022-08-22 16:25:24.981 - Action: add button was pressed
+2022-08-22 16:25:26.195 - Action: product code was entered - 1
+2022-08-22 16:25:26.757 - Action: submit button was pressed
+2022-08-22 16:25:27.648 - Action: add button was pressed
+2022-08-22 16:25:28.862 - Action: product code was entered - 5
+2022-08-22 16:25:29.417 - Action: submit button was pressed
+2022-08-22 16:25:30.152 - NUnit.Framework.AssertionException:   String lengths are both 15. Strings differ at index 13.
+  Expected: "Price:\r\n  1.65€"
+  But was:  "Price:\r\n  1.69€"
+  --------------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at EasyScanSpecflow.StepDefinitions.PriceCheckerPageStepDefinitions.ThenProductPriceShouldBe(String expectedPrice) in C:\Users\valac\source\repos\StrongPoint\EasyScan\EasyScanSpecflow\StepDefinitions\PriceCheckerPageStepDefinitions.cs:line 86
+2022-08-22 16:25:30.155 - Test ended.
+2022-08-22 16:25:36.735 - Alert: Price checker button could not be found
+2022-08-22 16:25:36.872 - Action: back keycode was pressed
+2022-08-22 16:27:06.401 - Started test: CheckUnknownItem("1222",null)
+2022-08-22 16:27:06.828 - Alert: Price checker button could not be found
+2022-08-22 16:27:06.840 - Alert: Price checker button could not be found
+2022-08-22 16:27:06.852 - Alert: Price checker button could not be found
+2022-08-22 16:27:06.863 - Alert: Price checker button could not be found
+2022-08-22 16:27:06.879 - Alert: Price checker button could not be found
+2022-08-22 16:27:06.891 - Alert: Price checker button could not be found
+2022-08-22 16:27:06.902 - Alert: Price checker button could not be found
+2022-08-22 16:27:06.902 - Alert: Could not load main screen
+2022-08-22 16:27:06.928 - Step: user selects price checker
+2022-08-22 16:27:07.948 - Action: price checker button was pressed
+2022-08-22 16:27:07.952 - Step: Plus button is pressed
+2022-08-22 16:27:08.606 - Action: add button was pressed
+2022-08-22 16:27:08.610 - Step: Product code 1222 is entered and submitted
+2022-08-22 16:27:09.818 - Action: product code was entered - 1222
+2022-08-22 16:27:10.375 - Action: submit button was pressed
+2022-08-22 16:27:10.377 - Step: app return message that item not found
+2022-08-22 16:27:10.994 - Test ended.
+2022-08-22 16:27:17.426 - Alert: Price checker button could not be found
+2022-08-22 16:27:17.603 - Action: back keycode was pressed
+2022-08-22 16:27:18.220 - Started test: PriceChecks
+2022-08-22 16:27:18.616 - Step: user selects price checker
+2022-08-22 16:27:18.705 - Action: price checker button was pressed
+2022-08-22 16:27:18.712 - Step: user checks items by barcode and their values match:
+2022-08-22 16:27:19.348 - Action: add button was pressed
+2022-08-22 16:27:20.071 - Action: product code was entered - 1
+2022-08-22 16:27:20.625 - Action: submit button was pressed
+2022-08-22 16:27:21.551 - Action: add button was pressed
+2022-08-22 16:27:22.758 - Action: product code was entered - 5
+2022-08-22 16:27:23.318 - Action: submit button was pressed
+2022-08-22 16:27:24.112 - Test ended.
+2022-08-22 16:27:30.575 - Alert: Price checker button could not be found
+2022-08-22 16:27:30.716 - Action: back keycode was pressed
